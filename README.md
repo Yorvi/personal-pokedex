@@ -5,17 +5,17 @@
 
 
 
-# Goal:
+## Goal:
 
 To create a pokemon trainer showcase website that displays information focused around 3 pokemon chosen by the student using AJAX to retrieve said data. This project is focused on client side technologies.
 
-# Learning Objectives:
+## Learning Objectives:
 
 Upon successful completion of this project, the student will demonstrate their understanding of Object Oriented Javascript, APIs, AJAX, grid systems, SASS, UI/UX and deployment via Github Pages.
 
  
 
-# Instructions:
+## Instructions:
 
 Welcome to the poke showcase! If you are not familiar with Pokemon please skim thru this website (Links to an external site.)Links to an external site.. Imagine yourself as an up and coming pokemon trainer. In order to raise brand awareness you have decided to create a website showcasing your pokemon. However, all the pokemon information you need to access is stored in a server. Use the Pokemon API  (Links to an external site.)Links to an external site.to gather information regarding your chosen pokemon using ajax calls. This website will house your roster of at least three pokemon and at least four of their statistics to display to other trainers. Please keep your code understandable and clean because this is a precursor the to next project which has you work in a group.
 
@@ -25,7 +25,7 @@ Instructor: Take note of the provided sign-up sheet. Have students choose 3 diff
 
  
 
-## Challenge:
+### Challenge:
 
 Try showing extra pieces of information such as:
 
@@ -37,7 +37,7 @@ Try showing extra pieces of information such as:
     - use an animation with the reveal
  
 
-# Completion Requirements:
+## Completion Requirements:
 
 A completed assignment should:
 
