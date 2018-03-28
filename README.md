@@ -17,7 +17,7 @@ Upon successful completion of this project, the student will demonstrate their u
 
 ## Instructions:
 
-Welcome to the poke showcase! If you are not familiar with Pokemon please skim thru this website (Links to an external site.)Links to an external site.. Imagine yourself as an up and coming pokemon trainer. In order to raise brand awareness you have decided to create a website showcasing your pokemon. However, all the pokemon information you need to access is stored in a server. Use the Pokemon API  (Links to an external site.)Links to an external site.to gather information regarding your chosen pokemon using ajax calls. This website will house your roster of at least three pokemon and at least four of their statistics to display to other trainers. Please keep your code understandable and clean because this is a precursor the to next project which has you work in a group.
+Welcome to the poke showcase! If you are not familiar with Pokemon please skim thru [this website](https://www.pokemon.com/us/). Imagine yourself as an up and coming pokemon trainer. In order to raise brand awareness you have decided to create a website showcasing your pokemon. However, all the pokemon information you need to access is stored in a server. Use the [Pokemon API](https://pokeapi.co/) to gather information regarding your chosen pokemon using ajax calls. This website will house your roster of at least three pokemon and at least four of their statistics to display to other trainers. Please keep your code understandable and clean because this is a precursor the to next project which has you work in a group.
 
 Be creative in your presentation of the information.
 
