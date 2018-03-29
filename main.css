@@ -114,19 +114,20 @@ body {
     position: absolute;
     top: 14%;
     left: 14%;
-    animation: catchPokemon 0.5s infinite;
+    animation: catchPokemon 1.2s infinite;
     animation-direction: alternate;
     border-radius: 100%;
 }
 
-/* .shadow {
-    height: 92%;
+.shadow {
+    width: 275px;
+    height: 275px;
     position: absolute;
-    top: 1px;
-    border-radius: 100%;
-    box-shadow: 51px 19px 0px rgba(0,0,0,0.2);
-    right: 55px;
-} */
+    top: 4px;
+    border-radius: 80%;
+    box-shadow: 46px 15px 0px rgba(0,0,0,0.2);
+    right: 70px;
+}
 
 .mainCircle:hover {
     cursor: pointer;
