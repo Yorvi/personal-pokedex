@@ -1,28 +1,44 @@
+@font-face {
+    font-family: "Pokemon GB";
+    src: url("fonts/pokemon-gb.ttf");
+}
+
+@keyframes catchPokemon{
+    from{background: rgb(230, 0, 0)}
+    to {background: rgb(255, 255, 255)}
+}
+
+@keyframes shake {
+    0%,
+    100% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+}
+
 .logo {
     float: left;
     max-height: 125px;
     max-width: 150px;
+    padding: 0 185px 0 0px
 }
 .logoImg {
     max-height: 125px;
     max-width: 150px;
 }
 
-nav {
-    float: right;
-}
-
 .midNav {
     float: left;
     font-family: 'Press Start 2P', cursive;
-    padding-top: 20px;
+    padding: 10px 190px 0 0;
     text-shadow: #E63946 1px 0 10px;
 }
 
 #rightNav {
     float: right;
     font-size: 50px;
-    padding-top: 32px;
 }
 
 .container {
@@ -43,25 +59,121 @@ body {
     width: 100%;
     margin: auto;
     background: #A8DADC;
+    padding: 120px 0;
+}
+
+.mainCircle {
+    width: 275px;
+    height: 275px;
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+}
+
+.halfCircleTop, .halfCircleBottom, .shadow {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.halfCircleTop {
+    background-color: rgb(230, 0, 0);
+    border-top-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
+    border: 20px solid #000;
+    border-bottom: 10px solid;
+}
+
+.halfCircleBottom {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    border-bottom-right-radius: 50% 100%;
+    border-bottom-left-radius: 50% 100%;
+    border: 20px solid #000;
+    border-top: 10px solid;
+}
+
+.innerCircle {
+    border: 15px solid #000;
+    width: 20%;
+    height: 20%;
+    background: whitesmoke;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    border-radius: 60%;
+}
+
+.inner-black-circle {
+    border: 5px solid #000;
+    width: 55%;
+    height: 57%;
+    background: whitesmoke;
+    position: absolute;
+    top: 14%;
+    left: 14%;
+    animation: catchPokemon 0.5s infinite;
+    animation-direction: alternate;
+    border-radius: 100%;
+}
+
+/* .shadow {
+    height: 92%;
+    position: absolute;
+    top: 1px;
+    border-radius: 100%;
+    box-shadow: 51px 19px 0px rgba(0,0,0,0.2);
+    right: 55px;
+} */
+
+.mainCircle:hover {
+    cursor: pointer;
+    animation: shake .3s;
+}
+
+.center {
+    float: left;
+    width: auto;
+    height: 280px;
+    margin: 9.15px;
 }
 
 main {
     background: #E63946;
-    width: 960px;
-    height: 100%;
-    padding-top: 150px;
-    padding: 150px 25px 0;
+    width: 1000px;
+    height: 350px;
+    padding-top: 100px;
+    padding: 15px 25px 150px;
     margin: 0 auto;
     box-shadow: -4px 0 #457B9D, 0 1px #457B9D, 4px 0 #457B9D, 0 -1px #457B9D;
+    font-family: 'Pokemon GB', sans-serif;
+    line-height: 1.8;
+    letter-spacing: -2px;
+    word-spacing: 6px;
+    font-weight: lighter;
 }
 
-a {
+.headline {
+    text-align: center
+}
+
+a:link, a:visited {
+    color: #000;
     text-decoration: none;
+    display: inline-block;
 }
 
 li {
     list-style: none;
 }
+
+/* FOR THE LOVE OF GOD DONT DO THIS UNTIL YOU ARE FINISHED! */
+audio { 
+    display:none;
+    
+ }
 
 footer {
     background: #457B9D;

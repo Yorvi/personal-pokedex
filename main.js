@@ -23,6 +23,11 @@ class Pokemon {
 		this.defense = defense;
 		this.abilities = abilities;
 	}
+	render(){
+		let li = document.createElement("li") //depends what you want to set it as
+		li.innerHTML = this.id + ":" + this.name + ":" + this.hp + ":" + this.attack + "+"
+
+	}
 }
 
 // let pokemon = new Pokemon([
