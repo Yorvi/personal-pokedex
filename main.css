@@ -16,6 +16,7 @@ nav {
     float: left;
     font-family: 'Press Start 2P', cursive;
     padding-top: 20px;
+    text-shadow: #E63946 1px 0 10px;
 }
 
 #rightNav {
@@ -49,6 +50,7 @@ main {
     width: 960px;
     height: 100%;
     padding-top: 150px;
+    padding: 150px 25px 0;
     margin: 0 auto;
     box-shadow: -4px 0 #457B9D, 0 1px #457B9D, 4px 0 #457B9D, 0 -1px #457B9D;
 }
@@ -61,3 +63,15 @@ li {
     list-style: none;
 }
 
+footer {
+    background: #457B9D;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
+    text-shadow: #E63946 1px 0 10px;
+    box-shadow: 0 -2px #F1FAEE;
+}
