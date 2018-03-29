@@ -56,7 +56,7 @@ console.log(PocketMonsters)
 axios.get("https://pokeapi.co/", {
 }).then((response) => {
 //  console.log(response)
-	let data = response.data
+	let data = response.data.pokemon
 	let pocketMonsters = new PocketMonsters()
 
 	data.forEach((item) => {

@@ -1,0 +1,63 @@
+.logo {
+    float: left;
+    max-height: 125px;
+    max-width: 150px;
+}
+.logoImg {
+    max-height: 125px;
+    max-width: 150px;
+}
+
+nav {
+    float: right;
+}
+
+.midNav {
+    float: left;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 20px;
+}
+
+#rightNav {
+    float: right;
+    font-size: 50px;
+    padding-top: 32px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background: #457B9D;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    box-shadow: 0px 2px 2px #F1FAEE;
+}
+
+
+body {
+    width: 100%;
+    margin: auto;
+    background: #A8DADC;
+}
+
+main {
+    background: #E63946;
+    width: 960px;
+    height: 100%;
+    padding-top: 150px;
+    margin: 0 auto;
+    box-shadow: -4px 0 #457B9D, 0 1px #457B9D, 4px 0 #457B9D, 0 -1px #457B9D;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
