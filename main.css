@@ -22,7 +22,7 @@
     float: left;
     max-height: 125px;
     max-width: 150px;
-    padding: 0 185px 0 0px
+    padding: 10px 185px 0 0px
 }
 .logoImg {
     max-height: 125px;
@@ -156,6 +156,21 @@ main {
     font-weight: lighter;
 }
 
+#arcaninePic {
+    padding: 35px 40px 0 0 ;
+    float: left;
+}
+
+#abraPic {
+    padding: 90px 40px 0 0 ;
+    float: left;
+}
+
+#electabuzzPic {
+    padding: 25px 40px 0 0 ;
+    float: left;
+}
+
 .headline {
     text-align: center
 }
@@ -170,6 +185,8 @@ li {
     list-style: none;
 }
 
+
+
 /* FOR THE LOVE OF GOD DONT DO THIS UNTIL YOU ARE FINISHED! */
 audio { 
     display:none;
@@ -178,9 +195,11 @@ audio {
 
 footer {
     background: #457B9D;
+    position: fixed;
     width: 100%;
-    height: 150px;
-    top: 0;
+    height: 115px;
+    left: 0;
+    bottom: 0;
     padding-top: 50px;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
