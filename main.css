@@ -70,7 +70,16 @@ body {
 .pokeContent {
     padding: 0px 0 150px 0;    
 }
-
+#pokeInfo1 {
+    text-transform: capitalize;
+}
+#pokeInfo2 {
+    text-transform: capitalize;
+}
+#pokeInfo3 {
+    padding: 20px 0 0 20px;
+    text-transform: capitalize;
+}
 .mainCircle {
     width: 275px;
     height: 275px;
@@ -166,18 +175,33 @@ main {
 }
 
 #arcaninePic {
-    padding: 75px 40px 50px 60px ;
+    padding: 75px 30px 50px 50px ;
     float: left;
+}
+#arcanineGif {
+    float: right;
+    height: 100px;
+    width: 100px;
 }
 
 #abraPic {
-    padding: 90px 40px 0 0 ;
+    padding: 90px 40px 60px 0 ;
     float: left;
+}
+#abraGif {
+    float: right; 
+    height: 100px;
+    width: 200px;
 }
 
 #electabuzzPic {
     padding: 90px 40px 50px 60px ;
     float: left;
+}
+#electabuzzGif {
+    float: right; 
+    height: 100px;
+    width: 100px;
 }
 
 .headline {
@@ -190,13 +214,11 @@ a:link, a:visited {
     display: inline-block;
 }
 
-/* li {
-    list-style: none;
-} */
+li {
+    list-style: url('images/pokeball-bullet.jpg');
 
+}
 
-
-/* FOR THE LOVE OF GOD DONT DO THIS UNTIL YOU ARE FINISHED! */
 audio { 
     display:none;
     
@@ -209,7 +231,7 @@ footer {
     height: 115px;
     left: 0;
     bottom: 0;
-    padding-top: 50px;
+    padding-top: 45px;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     line-height: 1.6;

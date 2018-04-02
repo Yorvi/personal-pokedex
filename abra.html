@@ -9,34 +9,56 @@
         <link rel="icon" href="images/pokeball.png">
     </head>
     <body>
+
         <header>
             <div class="container">
                 <section class="logo">
-                    <a href="index.html" ><img class="logoImg" src="images/pokemon-trainer-logo2.jpg" alt="Certified Trainer"></a>
+                    <a href="index.html">
+                        <img id="abraGif" src="images/abra-gif.gif"></a>
                 </section>
                     
                 <h3 class="midNav" class="big">Yorvi Rasputin's</h3>
                 <h5 class="midNav">&nbsp;&nbsp;&nbsp;Personal Pokedex</h5>
-                <a id="rightNav" class="fa fa-bars" ></a>   
                    
             </div>
         </header>
-            <main class="pokeContent">
-                <h1></h1>
-                <section>
-                    <img id="abraPic" src="images/abra.jpg" height="325" width="375">
-                </section>
-                
+
+        <main class="pokeContent">
+            <br>
+            <section>
+                <img id="abraPic" src="images/abra.jpg" onmouseover="this.src='images/shiny-abra.jpg'" onmouseout="this.src='images/abra.jpg'" height="325" width="375">
+                <!-- onmouseover, onmouseout inspired by http://jsfiddle.net/ssuryar/wcmHu/429/ -->
+            </section>
+
+            <section id="pokeInfo2">
+                <br><p id="id2"></p>
+                <p id="name2"></p><br>
+                <p id="hp2"></p>
+                <p id="attack2"></p>
+                <p id="defense2"></p>
+                <p id="abilities2">
+                    Abillities: 
+                    <ul class="abilities">
+                        <li class="abl1"></li>
+                        <li class="abl2"></li>
+                        <li class="abl3"></li>
+                        <li class="abl4"></li>
+                    </ul>
+                </p>
+            </section>
+
             </main>
+
             <audio controls autoplay loop><source src="audio/national-park-orchestra.mp3" type="audio/mpeg"></audio>
+            
             <footer>
                     &copy; Yorvi Rasputin<br>
                     Route 148<br>
                     Pallet Town, Kanto
             </footer>
+
             <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-            <script src="handlebars-v4.0.11.js"></script>
-            <script src="main.js"></script>
             <script src="abra.js"></script>
+
         </body>    
 </html>

@@ -1,8 +1,6 @@
-document.getElementById("arcaninePic").addEventListener('mouseover', function() {
-	document.getElementById("arcaninePic").src = "images/shiny-arcanine.jpg"
-});
-
-let ul = document.querySelector("ul")
+// document.getElementById("arcaninePic").addEventListener('mouseover', function() {
+// 	document.getElementById("arcaninePic").src = "images/shiny-arcanine.jpg"
+// });
 
 class Pokemon {
 	constructor(index, pokemon, hp, attack, defense, abilities) {
@@ -40,6 +38,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/59/")
 		data.abilities[2].ability.name,
 		data.moves[7].move.name,
 	)
+
 	index.innerHTML = "#0" + data.id
 	name.innerHTML = data.name
 	hp.innerHTML = "HP: " + data.stats[5].base_stat
@@ -51,6 +50,8 @@ axios.get("https://pokeapi.co/api/v2/pokemon/59/")
 	abl4.innerHTML = data.moves[7].move.name
 
 })
+
 .catch((error) => {
   console.log(error)
+  
 })

@@ -12,19 +12,19 @@
         <header>
             <div class="container">
                 <section class="logo">
-                    <a href="index.html" ><img class="logoImg" src="images/pokemon-trainer-logo2.jpg" alt="Certified Trainer"></a>
+                    <a href="index.html" ><img id="electabuzzGif" src="images/electabuzz-gif.gif"></a>
                 </section>
                     
                 <h3 class="midNav" class="big">Yorvi Rasputin's</h3>
-                <h5 class="midNav">&nbsp;&nbsp;&nbsp;Personal Pokedex</h5>
-                <a id="rightNav" class="fa fa-bars" ></a>   
+                <h5 class="midNav">&nbsp;&nbsp;&nbsp;Personal Pokedex</h5>   
                    
             </div>
         </header>
             <main class="pokeContent">
 
                 <section>
-                    <img id="electabuzzPic" src="images/electabuzz.jpg" height="400" width="375">
+                    <img id="electabuzzPic" src="images/electabuzz.jpg" onmouseover="this.src='images/shiny-electabuzz.jpg'" onmouseout="this.src='images/electabuzz.jpg'"  height="400" width="375">
+                    <!-- onmouseover, onmouseout inspired by http://jsfiddle.net/ssuryar/wcmHu/429/ -->
                 </section>
                 <section id="pokeInfo3">
                     <br><p id="id3"></p>
@@ -51,8 +51,6 @@
                     Pallet Town, Kanto
             </footer>
             <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-            <script src="handlebars-v4.0.11.js"></script>
-            <script src="main.js"></script>
             <script src="electabuzz.js"></script>
         </body>    
 </html>

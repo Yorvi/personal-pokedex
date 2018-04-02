@@ -9,51 +9,59 @@
         <link rel="icon" href="images/pokeball.png">
     </head>
     <body>
+
         <header>
             <div class="container">
                 <section class="logo">
-                    <a href="index.html" ><img class="logoImg" src="images/pokemon-trainer-logo2.jpg" alt="Certified Trainer"></a>
+                    <a href="index.html" >
+                        <img id="arcanineGif" src="images/arcanine-gif.gif">
+                    </a>
                 </section>
                     
                 <h3 class="midNav" class="big">Yorvi Rasputin's</h3>
                 <h5 class="midNav">&nbsp;&nbsp;&nbsp;Personal Pokedex</h5>
-                <a id="rightNav" class="fa fa-bars" ></a>   
                    
             </div>
         </header>
-            <main class="pokeContent">
-                <h1></h1>
-                <section>
-                    <img id="arcaninePic" src="images/arcanine.jpg" height="375" width="375">
-                </section>
-                <section id="pokeInfo1">
-                    <br><p id="id1"></p>
-                    <p id="name1"></p><br>
-                    <p id="hp1"></p>
-                    <p id="attack1"></p>
-                    <p id="defense1"></p>
-                    <p id="abilities1">
-                        Abillities: 
-                        <ul class="abilities">
-                            <li class="abl1"></li>
-                            <li class="abl2"></li>
-                            <li class="abl3"></li>
-                            <li class="abl4"></li>
-                        </ul>
-                    </p>
-                </section>
+
+        <main class="pokeContent">
+            <br>
+            <section>
+                <img id="arcaninePic" src="images/arcanine.jpg" onmouseover="this.src='images/shiny-arcanine.jpg'" onmouseout="this.src='images/arcanine.jpg'" height="375" width="375">
+                <!-- onmouseover, onmouseout inspired by http://jsfiddle.net/ssuryar/wcmHu/429/ -->
+            </section>
+                
+            <section id="pokeInfo1">
+                <br><p id="id1"></p>
+                <p id="name1"></p><br>
+                <p id="hp1"></p>
+                <p id="attack1"></p>
+                <p id="defense1"></p>
+                <p id="abilities1">
+                    Abillities: 
+                    <ul class="abilities">
+                        <li class="abl1"></li>
+                        <li class="abl2"></li>
+                        <li class="abl3"></li>
+                        <li class="abl4"></li>
+                    </ul>
+                </p>  
+            </section>
+
+
     
             <audio controls autoplay loop><source src="audio/national-park-orchestra.mp3" type="audio/mpeg"></audio> 
-                   
+
             </main>
+
             <footer>
                     &copy; Yorvi Rasputin<br>
                     Route 148<br>
                     Pallet Town, Kanto
             </footer>
+
             <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-            <script src="handlebars-v4.0.11.js"></script>
-            <script src="main.js"></script>
             <script src="arcanine.js"></script>
+
         </body>    
 </html>
