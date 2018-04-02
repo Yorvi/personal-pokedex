@@ -21,19 +21,27 @@
                    
             </div>
         </header>
-            <main class="content">
-                <h1></h1>
+            <main class="pokeContent">
+
                 <section>
                     <img id="electabuzzPic" src="images/electabuzz.jpg" height="400" width="375">
                 </section>
                 <section id="pokeInfo3">
-                    <br><p id="id3">Index: #125</p>
-                    <p id="name3">Name: Arcanine</p><br>
-                    <p id="hp3">HP: 85</p>
-                    <p id="attack3">ATK: 85</p>
-                    <p id="defense3">DEF: 120</p>
-                    <p id="abilities3">Abillities: ["attack", "attack", "attack"]</p>
-                    </section>
+                    <br><p id="id3"></p>
+                    <p id="name3"></p><br>
+                    <p id="hp3"></p>
+                    <p id="attack3"></p>
+                    <p id="defense3"></p>
+                    <p>
+                        Abillities: 
+                        <ul class="abilities">
+                            <li class="abl1"></li>
+                            <li class="abl2"></li>
+                            <li class="abl3"></li>
+                            <li class="abl4"></li>
+                        </ul>
+                    </p>
+                </section>
     
             <audio controls autoplay loop><source src="audio/national-park-orchestra.mp3" type="audio/mpeg"></audio>    
             </main>
@@ -43,6 +51,7 @@
                     Pallet Town, Kanto
             </footer>
             <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+            <script src="handlebars-v4.0.11.js"></script>
             <script src="main.js"></script>
             <script src="electabuzz.js"></script>
         </body>    

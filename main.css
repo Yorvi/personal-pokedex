@@ -59,7 +59,16 @@ body {
     width: 100%;
     margin: auto;
     background: #A8DADC;
-    padding: 120px 0;
+    padding: 96px 0;
+    overflow: hidden;
+}
+
+.content {
+    padding: 68px 0 150px 0;
+}
+
+.pokeContent {
+    padding: 0px 0 150px 0;    
 }
 
 .mainCircle {
@@ -144,20 +153,20 @@ body {
 main {
     background: #E63946;
     width: 1000px;
-    height: 350px;
-    padding-top: 100px;
-    padding: 15px 25px 150px;
+    height: 650px;
+    padding-top: 100px; 
+    padding: 45px 25px 150px;
     margin: 0 auto;
     box-shadow: -4px 0 #457B9D, 0 1px #457B9D, 4px 0 #457B9D, 0 -1px #457B9D;
     font-family: 'Pokemon GB', sans-serif;
-    line-height: 1.8;
+    line-height: 1.9;
     letter-spacing: -2px;
     word-spacing: 6px;
     font-weight: lighter;
 }
 
 #arcaninePic {
-    padding: 35px 40px 0 0 ;
+    padding: 75px 40px 50px 60px ;
     float: left;
 }
 
@@ -167,7 +176,7 @@ main {
 }
 
 #electabuzzPic {
-    padding: 25px 40px 0 0 ;
+    padding: 90px 40px 50px 60px ;
     float: left;
 }
 
@@ -181,9 +190,9 @@ a:link, a:visited {
     display: inline-block;
 }
 
-li {
+/* li {
     list-style: none;
-}
+} */
 
 
 
