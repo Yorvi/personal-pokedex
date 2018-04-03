@@ -3,16 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Electabuzz - Personal Pokedex</title>
-        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
         <link rel="icon" href="images/pokeball.png">    
     </head>
     <body>
+
         <header>
             <div class="container">
                 <section class="logo">
-                    <a href="index.html" ><img id="electabuzzGif" src="images/electabuzz-gif.gif"></a>
+                    <a href="index.html">
+                        <img id="electabuzzGif" src="images/electabuzz-gif.gif">
+                    </a>
                 </section>
                     
                 <h3 class="midNav" class="big">Yorvi Rasputin's</h3>
@@ -20,37 +23,42 @@
                    
             </div>
         </header>
-            <main class="pokeContent">
 
-                <section>
-                    <img id="electabuzzPic" src="images/electabuzz.jpg" onmouseover="this.src='images/shiny-electabuzz.jpg'" onmouseout="this.src='images/electabuzz.jpg'"  height="400" width="375">
-                    <!-- onmouseover, onmouseout inspired by http://jsfiddle.net/ssuryar/wcmHu/429/ -->
-                </section>
-                <section id="pokeInfo3">
-                    <br><p id="id3"></p>
-                    <p id="name3"></p><br>
-                    <p id="hp3"></p>
-                    <p id="attack3"></p>
-                    <p id="defense3"></p>
-                    <p>
-                        Abillities: 
-                        <ul class="abilities">
-                            <li class="abl1"></li>
-                            <li class="abl2"></li>
-                            <li class="abl3"></li>
-                            <li class="abl4"></li>
-                        </ul>
-                    </p>
-                </section>
+        <main class="pokeContent">
+
+            <section>
+                <img id="electabuzzPic" src="images/electabuzz.jpg" onmouseover="this.src='images/shiny-electabuzz.jpg'" onmouseout="this.src='images/electabuzz.jpg'"  height="400" width="375">
+                <!-- onmouseover, onmouseout inspired by http://jsfiddle.net/ssuryar/wcmHu/429/ -->
+            </section>
+            
+            <section id="pokeInfo3">
+                <br><p id="id3"></p>
+                <p id="name3"></p><br>
+                <p id="hp3"></p>
+                <p id="attack3"></p>
+                <p id="defense3"></p>
+                <p>
+                    Abillities: 
+                    <ul class="abilities">
+                        <li class="abl1"></li>
+                        <li class="abl2"></li>
+                        <li class="abl3"></li>
+                        <li class="abl4"></li>
+                    </ul>
+                </p>
+            </section>
     
-            <audio controls autoplay loop><source src="audio/national-park-orchestra.mp3" type="audio/mpeg"></audio>    
+            <audio controls autoplay loop><source src="audio/national-park-orchestra.mp3" type="audio/mpeg"></audio> 
+
             </main>
+
             <footer>
                     &copy; Yorvi Rasputin<br>
                     Route 148<br>
                     Pallet Town, Kanto
             </footer>
+
             <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-            <script src="electabuzz.js"></script>
+            <script src="js/electabuzz.js"></script>
         </body>    
 </html>
