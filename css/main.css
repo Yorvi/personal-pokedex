@@ -8,13 +8,24 @@
     to {background: rgb(255, 255, 255)}
 }
 
-@keyframes shake {
-    0%,
-    100% {
-      transform: rotate(-5deg);
+@keyframes wiggle {
+    0% {
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(-15deg);
+    }
+    20% {
+        transform: rotate(15deg);
+    }
+    30% {
+        transform: rotate(-15deg);
     }
     50% {
-      transform: rotate(5deg);
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
     }
 }
 
@@ -149,7 +160,7 @@ body {
 
 .mainCircle:hover {
     cursor: pointer;
-    animation: shake .3s;
+    animation: wiggle 2s;
 }
 
 .center {
@@ -175,33 +186,34 @@ main {
 }
 
 #arcaninePic {
-    padding: 75px 30px 50px 50px ;
+    padding: 75px 90px 50px 50px ;
     float: left;
 }
 #arcanineGif {
     float: right;
     height: 100px;
-    width: 100px;
+    width: 150px;
+    padding-right: 50px;
 }
 
-#abraPic {
-    padding: 90px 40px 60px 0 ;
+#venusaurPic {
+    padding: 100px 90px 60px 50px ;
     float: left;
 }
-#abraGif {
+#venusaurGif {
     float: right; 
     height: 100px;
     width: 200px;
 }
 
-#electabuzzPic {
-    padding: 90px 40px 50px 60px ;
+#starmiePic {
+    padding: 90px 90px 50px 60px ;
     float: left;
 }
-#electabuzzGif {
+#starmieGif {
     float: right; 
     height: 100px;
-    width: 100px;
+    width: 200px;
 }
 
 .headline {
@@ -215,7 +227,7 @@ a:link, a:visited {
 }
 
 li {
-    list-style: url('images/pokeball-bullet.jpg');
+    list-style: url('../images/pokeball-bullet.jpg');
 
 }
 

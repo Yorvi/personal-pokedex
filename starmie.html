@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Arcanine - Personal Pokedex</title>
+    <title>Starmie - Personal Pokedex</title>
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
@@ -16,7 +16,7 @@
         <div class="container">
             <section class="logo">
                 <a href="index.html">
-                    <img id="arcanineGif" src="images/arcanine-gif.gif">
+                    <img id="starmieGif" src="images/starmie-gif.gif">
                 </a>
             </section>
 
@@ -27,22 +27,23 @@
     </header>
 
     <main class="pokeContent">
-        <br>
+
         <section>
-            <img id="arcaninePic" src="images/arcanine.jpg" onmouseover="this.src='images/shiny-arcanine.jpg'" onmouseout="this.src='images/arcanine.jpg'"
-                height="375" width="375">
+            <img id="starmiePic" src="images/starmie.jpg" onmouseover="this.src='images/shiny-starmie.jpg'" onmouseout="this.src='images/starmie.jpg'"
+                height="400" width="375">
             <!-- onmouseover, onmouseout inspired by http://jsfiddle.net/ssuryar/wcmHu/429/ -->
         </section>
 
-        <section id="pokeInfo1">
+        <section id="pokeInfo3">
             <br>
-            <p id="id1"></p>
-            <p id="name1"></p>
+            <p id="id3"></p>
+            <p id="name3"></p>
             <br>
-            <p id="hp1"></p>
-            <p id="attack1"></p>
-            <p id="defense1"></p>
-            <p id="abilities1">
+
+            <p id="hp3"></p>
+            <p id="attack3"></p>
+            <p id="defense3"></p>
+            <p>
                 Abillities:
                 <ul class="abilities">
                     <li class="abl1"></li>
@@ -52,8 +53,6 @@
                 </ul>
             </p>
         </section>
-
-
 
         <audio controls autoplay loop>
             <source src="audio/national-park-orchestra.mp3" type="audio/mpeg">
@@ -68,8 +67,7 @@
     </footer>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="js/arcanine.js"></script>
-
+    <script src="js/starmie.js"></script>
 </body>
 
 </html>
