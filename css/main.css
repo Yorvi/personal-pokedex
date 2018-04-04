@@ -192,27 +192,28 @@ main {
 #arcanineGif {
     float: right;
     height: 100px;
-    width: 100px;
+    width: 150px;
+    padding-right: 50px;
 }
 
-#abraPic {
+#venusaurPic {
     padding: 100px 90px 60px 50px ;
     float: left;
 }
-#abraGif {
+#venusaurGif {
     float: right; 
     height: 100px;
     width: 200px;
 }
 
-#electabuzzPic {
+#starmiePic {
     padding: 90px 90px 50px 60px ;
     float: left;
 }
-#electabuzzGif {
+#starmieGif {
     float: right; 
     height: 100px;
-    width: 100px;
+    width: 200px;
 }
 
 .headline {
