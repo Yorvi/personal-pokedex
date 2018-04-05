@@ -1,10 +1,12 @@
 class Yorvi {
-    constructor(){
-        this.all = []
+    constructor(pokemon) {
+      this.pokemon = pokemon;
+    }
+    add() {
+
     }
     get(name) {
-        
-    }
-}
 
-console.log(Yorvi.get("venusaur"))
+    }
+  }
+console.log(arcanine)

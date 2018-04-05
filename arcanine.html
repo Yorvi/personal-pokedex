@@ -33,18 +33,17 @@
     </div>
 
     <div class="row">
-        <section class="col s10 offset-s1">
-            <div class="col s5">
+        <main class="col s10 offset-s1" id="arcContent" >
+            <div class="col s4">
                 <img id="arcaninePic" src="images/arcanine.jpg" onmouseover="this.src='images/shiny-arcanine.jpg'" onmouseout="this.src='images/arcanine.jpg'"
                     height="375" width="375">
                 <!-- onmouseover, onmouseout inspired by http://jsfiddle.net/ssuryar/wcmHu/429/ -->
-
             </div>
-            <div id="pokeInfo1" class="col s5">
+            <div id="pokeInfo1" class="col s2.3">
                 <br>
                 <p id="id1"></p>
                 <p id="name1"></p>
-                <br>
+                <span class="fire">FIRE</span>
                 <p id="hp1"></p>
                 <p id="attack1"></p>
                 <p id="defense1"></p>
@@ -58,7 +57,10 @@
                     </ul>
                 </p>
             </div>
-        </section>
+            <div>
+                <img class="col s4" id="prof-oak1" src="images/prof-oak1.jpg">
+            </div>
+        </main>
     </div>
 
     <div>
@@ -69,7 +71,10 @@
 
     <div class="row">
         <footer class="col s10 offset-s1">
-            <div class="col s2 offset-s5">
+            <div class="col s1">
+                <img class="pc" src="images/pokecenter.png">
+            </div>
+            <div class="col s2.1 offset-s4">
                 <div class="center-align">
                     <p class="my-info" class="valign-wrapper">
                         &copy; Yorvi Rasputin
@@ -77,6 +82,9 @@
                         <br> Pallet Town, Kanto
                     </p>
                 </div>
+            </div>
+            <div class="col s1 offset-s3">
+                <img class="ps" src="images/pokeshop.png">
             </div>
         </footer>
     </div>
