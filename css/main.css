@@ -1,11 +1,6 @@
 @font-face {
   font-family: "Pokemon GB";
   src: url("fonts/pokemon-gb.ttf"); }
-@keyframes catchPokemon {
-  from {
-    background: #e60000; }
-  to {
-    background: white; } }
 @keyframes wiggle {
   0% {
     transform: rotate(0); }
@@ -254,59 +249,6 @@ main {
   position: relative;
   padding: 20px;
   display: inline-block; }
-
-.halfCircleTop, .halfCircleBottom, .shadow {
-  width: 100%;
-  height: 50%;
-  box-sizing: border-box; }
-
-.halfCircleTop {
-  background-color: #e60000;
-  border-top-right-radius: 50% 100%;
-  border-top-left-radius: 50% 100%;
-  border: 20px solid #000;
-  border-bottom: 10px solid; }
-
-.halfCircleBottom {
-  background-color: whitesmoke;
-  width: 100%;
-  height: 50%;
-  box-sizing: border-box;
-  border-bottom-right-radius: 50% 100%;
-  border-bottom-left-radius: 50% 100%;
-  border: 20px solid #000;
-  border-top: 20px solid; }
-
-.innerCircle {
-  border: 14px solid #000;
-  width: 30%;
-  height: 30%;
-  background: whitesmoke;
-  position: absolute;
-  top: 37%;
-  left: 36%;
-  border-radius: 60%; }
-
-.inner-black-circle {
-  border: 5px solid #000;
-  width: 65%;
-  height: 65%;
-  background: whitesmoke;
-  position: absolute;
-  top: 18%;
-  left: 17%;
-  animation: catchPokemon 1.2s infinite;
-  animation-direction: alternate;
-  border-radius: 100%; }
-
-.shadow {
-  width: 275px;
-  height: 280px;
-  position: absolute;
-  top: 4px;
-  border-radius: 60%;
-  box-shadow: 66px 40px 0px rgba(0, 0, 0, 0.2);
-  right: 90px; }
 
 .mainCircle:hover {
   cursor: pointer;
