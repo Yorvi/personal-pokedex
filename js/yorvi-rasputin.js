@@ -1,12 +1,12 @@
 class Yorvi {
-    constructor(pokemon) {
-      this.pokemon = pokemon;
+    constructor() {
+      this.all = []
     }
-    add() {
-
+    add(pokemon) {
+      this.pokemon.push(pokemon)
     }
     get(name) {
-
+      
     }
   }
 console.log(arcanine)
