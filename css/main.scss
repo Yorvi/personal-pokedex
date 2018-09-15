@@ -96,7 +96,23 @@ main {
       margin: 15px; 
 
       div.screen-title {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
         border-bottom: 2px solid $black;
+        background-color: #2929293a;
+
+        div:nth-child(1) {
+          padding: 5px;
+        }
+        div:nth-child(2) {
+          padding: 5px;
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+
+      div.screen-showcase {
+        text-align: center;
       }
     } 
   }
