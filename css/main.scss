@@ -27,8 +27,78 @@ main {
   border-radius: 25px;
   padding: 25px 5px;
 
-  div {
-    height: 500px;
+  div#pokédex {
+    background-color: red;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    border: 2px solid $black;
+
+    div.pokédex-top {
+      display: grid;
+      grid-template-columns: 5fr 10fr;
+      background-color: #00000025;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      padding: 10px 0;
+      border-bottom: 2px solid $black;
+
+      div.top-left {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        div.lg-circle {
+          width: 50px;
+          height: 50px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #7DD1F0, #3F729B);
+          border: 3px solid $white;
+          margin: 5px 10px;
+        }
+        div.sm-circle-1 {
+          width: 15px;
+          height: 15px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #FF4444, #CC0000);
+          border: 1.5px solid $white;
+          margin: 5px 0;
+        }
+        div.sm-circle-2 {
+          width: 15px;
+          height: 15px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #FFBB33, #FF8800);
+          border: 1.5px solid $white;
+          margin: 5px 5px;
+        }
+        div.sm-circle-3 {
+          width: 15px;
+          height: 15px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #00C851, #007E33);
+          border: 1.5px solid $white;
+          margin: 5px 0;
+        }
+
+
+      }
+    }
+
+    div.pokédex-screen {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 7fr; 
+
+      height: 225px;
+      background-color: $white;
+      border: 5px solid $black;
+      border-radius: 10px;
+      margin: 15px; 
+
+      div.screen-title {
+        border-bottom: 2px solid $black;
+      }
+    } 
   }
 }
 div#nav {

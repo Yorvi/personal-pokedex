@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: "Play", sans-serif;
@@ -17,8 +18,62 @@ main {
   border: 7px solid #3F729B;
   border-radius: 25px;
   padding: 25px 5px; }
-  main div {
-    height: 500px; }
+  main div#pokédex {
+    background-color: red;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    border: 2px solid #212121; }
+    main div#pokédex div.pokédex-top {
+      display: grid;
+      grid-template-columns: 5fr 10fr;
+      background-color: #00000025;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      padding: 10px 0;
+      border-bottom: 2px solid #212121; }
+      main div#pokédex div.pokédex-top div.top-left {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; }
+        main div#pokédex div.pokédex-top div.top-left div.lg-circle {
+          width: 50px;
+          height: 50px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #7DD1F0, #3F729B);
+          border: 3px solid #FCFCFF;
+          margin: 5px 10px; }
+        main div#pokédex div.pokédex-top div.top-left div.sm-circle-1 {
+          width: 15px;
+          height: 15px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #FF4444, #CC0000);
+          border: 1.5px solid #FCFCFF;
+          margin: 5px 0; }
+        main div#pokédex div.pokédex-top div.top-left div.sm-circle-2 {
+          width: 15px;
+          height: 15px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #FFBB33, #FF8800);
+          border: 1.5px solid #FCFCFF;
+          margin: 5px 5px; }
+        main div#pokédex div.pokédex-top div.top-left div.sm-circle-3 {
+          width: 15px;
+          height: 15px;
+          border-radius: 100%;
+          background-image: linear-gradient(110deg, #00C851, #007E33);
+          border: 1.5px solid #FCFCFF;
+          margin: 5px 0; }
+    main div#pokédex div.pokédex-screen {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 7fr;
+      height: 225px;
+      background-color: #FCFCFF;
+      border: 5px solid #212121;
+      border-radius: 10px;
+      margin: 15px; }
+      main div#pokédex div.pokédex-screen div.screen-title {
+        border-bottom: 2px solid #212121; }
 
 div#nav {
   width: 95%;
