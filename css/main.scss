@@ -1,9 +1,31 @@
+$gba-font: 'Press Start 2P', cursive;
+$robotic-font: 'Play', sans-serif;
+
 body {
   margin: 0;
+  font-family: $robotic-font;
 }
 .container {
   width: 95%;
   max-width: 550px;
   margin: auto;
   border: 1px solid green;
+}
+
+div#nav {
+  width: 95%;
+  max-width: 1024px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 10fr 3fr;
+  font-family: $gba-font;
+  height: 45px;
+  border: 1px solid red;
+
+  img {
+    width: 46px;
+    height: 46px;
+  }
+
 }
