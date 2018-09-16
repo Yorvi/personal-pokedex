@@ -184,3 +184,23 @@
 //   console.log(error)
 // })
 
+var search = "";
+
+function storeVal() {
+  search = document.getElementById("search-input").value;
+
+  if ( isNaN(search) == false) {
+    if ( 0 < search && search < 10 ) {
+      console.log( "#00" + search );
+    }
+    if ( 9 < search && search < 100 ) {
+      console.log( "#0" + search );
+    }
+    if ( 99 < search) {
+      console.log( "#" + search );
+    }
+  } else {
+    console.log(search);
+  }
+}
+
