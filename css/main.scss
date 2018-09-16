@@ -27,10 +27,10 @@ main {
   border-radius: 25px;
   padding: 25px 5px;
 
+
   div#pokédex {
     background-color: red;
-    width: 400px;
-    height: 600px;
+    width: 450px;
     border-radius: 15px;
     border: 2px solid $black;
 
@@ -79,8 +79,36 @@ main {
           border: 1.5px solid $white;
           margin: 5px 0;
         }
+      }
+      div.search-bar {
+        align-self: end;
+        text-align: center;
 
+        input {
+          font-family: $robotic-font;
+          width: 150px;
+          height: 25px;
+          font-size: 100%;
+          border-radius: 20px;
+          border: 2px solid $acc-blue;
+          padding: 0 10px;
+        }
 
+        button {
+          font-family: $robotic-font;
+          background-color: $blue;
+          color: $white;
+          border: 2px solid $acc-blue;
+          height: 29px;
+          font-size: 100%;
+          border-radius: 20px;
+          transition: background-color .3s;
+
+          &:hover {
+            background-color: $acc-blue;
+            cursor: pointer;
+          }
+        }
       }
     }
 
@@ -115,6 +143,60 @@ main {
         text-align: center;
       }
     } 
+
+    div.pokédex-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 15px;
+      
+      div.pkmn-height {
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+
+        div.height-data {
+          padding: 5px;
+        }
+      }
+      div.pkmn-weight {
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+
+        div.weight-data {
+          padding: 5px;
+        }
+      }
+      div.pkmn-type {
+        grid-column: 1/3;
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+
+        div.type-data {
+          padding: 5px;
+        }
+      }
+      div.pkmn-stats {
+        grid-column: 1/3;
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+
+        div.stats-title {
+          padding: 5px;
+          border-bottom: 1px solid $black;
+        }
+
+        div.stats-data {
+          padding: 5px;
+        }
+      }
+    }
   }
 }
 div#nav {
