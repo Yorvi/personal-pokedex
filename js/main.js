@@ -185,15 +185,6 @@
 // })
 
 let search = "";
-let name = document.getElementById("pkmn-name");
-let index = document.getElementById("pkmn-id");
-let pkmnImg = document.getElementById("pkmn-img");
-let height = document.getElementById("pkmn-height");
-let weight = document.getElementById("pkmn-weight");
-let abl1 = document.getElementById("abl1");
-let abl2 = document.getElementById("abl2");
-let abl3 = document.getElementById("abl3");
-let abl4 = document.getElementById("abl4");
 
 let request = new XMLHttpRequest();
 
@@ -213,5 +204,21 @@ request.open("GET", "http://pokeapi.co/api/v2/pokemon/4");
 request.onload = function() {
   console.log(request.responseText);
 };
-request.send();
 
+axios.get("https://pokeapi.co/api/v2/pokemon/59/").then(response => {
+  let data = response.data;
+  let name = document.getElementById("pkmn-name");
+  let index = document.getElementById("pkmn-id");
+  let pkmnImg = document.getElementById("pkmn-img");
+  let height = document.getElementById("pkmn-height");
+  let weight = document.getElementById("pkmn-weight");
+  let abl1 = document.getElementById("abl1");
+  let abl2 = document.getElementById("abl2");
+  let abl3 = document.getElementById("abl3");
+  let abl4 = document.getElementById("abl4");
+
+
+
+}).catch(error => {
+    console.log(error);
+  });
