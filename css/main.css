@@ -109,6 +109,11 @@ main {
         text-align: center;
         background-image: url(../images/pokedex-background.gif);
         background-size: cover; }
+        main div#pokédex div.pokédex-screen div.screen-showcase img {
+          border-radius: 100%;
+          width: 150px;
+          height: 150px;
+          margin: 25px 0 0; }
     main div#pokédex div.pokédex-stats {
       display: grid;
       grid-template-columns: 1fr 1fr;

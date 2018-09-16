@@ -143,6 +143,13 @@ main {
         text-align: center;
         background-image: url(../images/pokedex-background.gif);
         background-size: cover;
+
+        img {
+          border-radius: 100%;
+          width: 150px;
+          height: 150px;
+          margin: 25px 0 0;
+        }
       }
     } 
 
