@@ -184,23 +184,34 @@
 //   console.log(error)
 // })
 
-var search = "";
+let search = "";
+let name = document.getElementById("pkmn-name");
+let index = document.getElementById("pkmn-id");
+let pkmnImg = document.getElementById("pkmn-img");
+let height = document.getElementById("pkmn-height");
+let weight = document.getElementById("pkmn-weight");
+let abl1 = document.getElementById("abl1");
+let abl2 = document.getElementById("abl2");
+let abl3 = document.getElementById("abl3");
+let abl4 = document.getElementById("abl4");
+
+let request = new XMLHttpRequest();
+
 
 function storeVal() {
-  search = document.getElementById("search-input").value;
+  search = document.getElementById( "search-input" ).value;
 
-  if ( isNaN(search) == false) {
-    if ( 0 < search && search < 10 ) {
-      console.log( "#00" + search );
-    }
-    if ( 9 < search && search < 100 ) {
-      console.log( "#0" + search );
-    }
-    if ( 99 < search) {
-      console.log( "#" + search );
-    }
+  if ( !isNaN( search ) == true ) {
+    console.log( search );
   } else {
-    console.log(search);
+    alert("Pokémon ID is either not a valid number, not available, or does not exist, please try another number.");
   }
 }
+
+request.open("GET", "http://pokeapi.co/api/v2/pokemon/4");
+
+request.onload = function() {
+  console.log(request.responseText);
+};
+request.send();
 
