@@ -187,6 +187,7 @@
 let input = "";
 let button = document.getElementById("button");
 let apiUrl = "https://pokeapi.co/api/v2/pokemon/";
+let apiUrlReset = "https://pokeapi.co/api/v2/pokemon/";
 
 function capFirstLet(string) {
   string.charAt(0).toUpperCase() + string.slice(1);
@@ -209,14 +210,12 @@ function callApi() {
     let abl4 = document.getElementById("abl4");
 
     name.innerHTML = data.name.charAt(0).toUpperCase() + data.name.slice(1);
-
+    
     if ( 0 < data.id && data.id < 10 ) {
       index.innerHTML = "#00" + data.id;
-    };
-    if ( 9 < data.id && data.id < 100 ) {
+    } if ( 9 < data.id && data.id < 100 ) {
       index.innerHTML = "#0" + data.id;
-    };
-    if ( 99 < data.id ) {
+    } if ( 99 < data.id ) {
       index.innerHTML = "#" + data.id;
     };
 
@@ -250,4 +249,5 @@ button.addEventListener("click", () => {
   input = document.getElementById("search-input").value;
   apiUrl = apiUrl + input;
   callApi();
+  apiUrl = apiUrlReset;
 });
