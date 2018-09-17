@@ -1,4 +1,15 @@
 @charset "UTF-8";
+@keyframes rotate {
+  0% {
+    transform: rotate(360deg); }
+  10% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(360deg); }
+  90% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 body {
   margin: 0;
   font-family: "Play", sans-serif;
@@ -38,28 +49,29 @@ main {
           width: 50px;
           height: 50px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #7DD1F0, #3F729B);
+          background-image: linear-gradient(110deg, #FCFCFF, #7DD1F0, #5d9ed4, #3F729B);
           border: 3px solid #FCFCFF;
-          margin: 5px 10px; }
+          margin: 5px 10px;
+          animation: rotate 7s linear infinite; }
         main div#pokédex div.pokédex-top div.top-left div.sm-circle-1 {
           width: 15px;
           height: 15px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #FF4444, #CC0000);
+          background-image: linear-gradient(180deg, #FCFCFF, #FF4444, #CC0000);
           border: 1.5px solid #FCFCFF;
           margin: 5px 0; }
         main div#pokédex div.pokédex-top div.top-left div.sm-circle-2 {
           width: 15px;
           height: 15px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #FFBB33, #FF8800);
+          background-image: linear-gradient(180deg, #FCFCFF, #FFBB33, #FF8800);
           border: 1.5px solid #FCFCFF;
           margin: 5px 5px; }
         main div#pokédex div.pokédex-top div.top-left div.sm-circle-3 {
           width: 15px;
           height: 15px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #00C851, #007E33);
+          background-image: linear-gradient(180deg, #FCFCFF, #00C851, #007E33);
           border: 1.5px solid #FCFCFF;
           margin: 5px 0; }
       main div#pokédex div.pokédex-top div.search-bar {
@@ -67,12 +79,12 @@ main {
         text-align: center; }
         main div#pokédex div.pokédex-top div.search-bar input {
           font-family: "Play", sans-serif;
-          width: 150px;
+          width: 175px;
           height: 25px;
-          font-size: 100%;
+          font-size: 80%;
           border-radius: 20px;
           border: 2px solid #82B1FF;
-          padding: 0 10px; }
+          padding: 1px 10px; }
         main div#pokédex div.pokédex-top div.search-bar button {
           font-family: "Play", sans-serif;
           background-color: #3F729B;

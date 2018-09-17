@@ -7,6 +7,14 @@ $acc-blue: #82B1FF;
 $white: #FCFCFF;
 $black: #212121;
 
+@keyframes rotate {
+  0%{transform: rotate(360deg)}
+  10%{transform: rotate(0deg)}
+  50%{transform: rotate(360deg)}
+  90%{transform: rotate(0deg)}
+  100%{transform: rotate(360deg)}
+}
+
 body {
   margin: 0;
   font-family: $robotic-font;
@@ -51,15 +59,16 @@ main {
           width: 50px;
           height: 50px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #7DD1F0, #3F729B);
+          background-image: linear-gradient(110deg, $white, #7DD1F0, rgb(93, 158, 212), #3F729B);
           border: 3px solid $white;
           margin: 5px 10px;
+          animation: rotate 7s linear infinite;
         }
         div.sm-circle-1 {
           width: 15px;
           height: 15px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #FF4444, #CC0000);
+          background-image: linear-gradient(180deg, $white, #FF4444, #CC0000);
           border: 1.5px solid $white;
           margin: 5px 0;
         }
@@ -67,7 +76,7 @@ main {
           width: 15px;
           height: 15px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #FFBB33, #FF8800);
+          background-image: linear-gradient(180deg, $white, #FFBB33, #FF8800);
           border: 1.5px solid $white;
           margin: 5px 5px;
         }
@@ -75,7 +84,7 @@ main {
           width: 15px;
           height: 15px;
           border-radius: 100%;
-          background-image: linear-gradient(110deg, #00C851, #007E33);
+          background-image: linear-gradient(180deg, $white, #00C851, #007E33);
           border: 1.5px solid $white;
           margin: 5px 0;
         }
@@ -86,12 +95,12 @@ main {
 
         input {
           font-family: $robotic-font;
-          width: 150px;
+          width: 175px;
           height: 25px;
-          font-size: 100%;
+          font-size: 80%;
           border-radius: 20px;
           border: 2px solid $acc-blue;
-          padding: 0 10px;
+          padding: 1px 10px;
         }
 
         button {

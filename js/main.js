@@ -189,14 +189,29 @@ let button = document.getElementById("button");
 let apiUrl = "https://pokeapi.co/api/v2/pokemon/";
 let apiUrlReset = "https://pokeapi.co/api/v2/pokemon/";
 
+
+// Math.floor(feet) + "' " + Math.floor(inch) / 10 + "''"
+
 function capFirstLet(string) {
   string.charAt(0).toUpperCase() + string.slice(1);
   return string
 }
 
+// function heightConverter(centimeter) {
+//   let inch = 0.3937 * centimeter;
+//   let feet = 0.0328 * centimeter;
+
+
+//   Math.floor(feet) + "' " + Math.floor(inch) / 10 + "''";
+// }
+
 function callApi() {
   axios.get(apiUrl).then(response => {
     let data = response.data;
+    let pkmnHeight = data.height * 10;
+    let inch = 0.3937 * pkmnHeight;
+    let feet = 0.0328 * pkmnHeight;
+    let pkmnWeight = data.weight * 2.2046;
 
     let name = document.getElementById("pkmn-name");
     let index = document.getElementById("pkmn-id");
@@ -221,8 +236,11 @@ function callApi() {
 
     pkmnImg.innerHTML =
       "<img src='" + data.sprites.front_default + "' id='pkmn-img'>";
-    height.innerHTML = "Height: " + data.height + "0 cm";
-    weight.innerHTML = "Weight: " + data.weight + " kg";
+      
+    height.innerHTML = "Height: " + Math.floor(feet) + "ft " + Math.floor(Math.floor(inch) / 10) + "in";
+
+    weight.innerHTML = "Weight: " + Math.floor(pkmnWeight) / 10 + " lbs";
+
     types.innerHTML =
       "Type: " +
       data.types[0].type.name.charAt(0).toUpperCase() +
