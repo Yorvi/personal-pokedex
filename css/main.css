@@ -53,7 +53,7 @@ div#nav {
 main {
   width: 95%;
   max-width: 1024px;
-  margin: auto;
+  margin: 10px auto;
   background-color: #82B1FF;
   border: 7px solid #3F729B;
   border-radius: 25px;
