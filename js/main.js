@@ -55,7 +55,7 @@ function callApi() {
     atk.innerHTML = "<strong>ATK: <span>" + data.stats[4].base_stat + "</span></strong>";
     def.innerHTML = "<strong>DEF: <span>" + data.stats[3].base_stat + "</span></strong>";
     spd.innerHTML = "<strong>SPD: <span>" + data.stats[0].base_stat + "</span></strong>";
-    height.innerHTML = "<strong>Height:</strong> " + Math.floor(feet) + "ft " + Math.floor(Math.floor(inch) / 10) + "in";
+    height.innerHTML = "<strong>Height:</strong> " + Math.floor(feet / 1.5) + "ft " + Math.floor(Math.floor(inch) / 20) + "in";
     weight.innerHTML = "<strong>Weight:</strong> " + Math.floor(pkmnWeight) / 10 + " lbs";
     types.innerHTML = "<strong>Type(s):</strong> " + pkmnDataType.slice(0, -2);
     abl1.innerHTML = data.moves[3].move.name.charAt(0).toUpperCase() + data.moves[3].move.name.slice(1);
