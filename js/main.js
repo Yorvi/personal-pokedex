@@ -25,6 +25,10 @@ function callApi() {
     let name = document.getElementById("pkmn-name");
     let index = document.getElementById("pkmn-id");
     let pkmnImg = document.getElementById("pkmn-sprite");
+    let hp = document.getElementById("pkmn-hp");
+    let atk = document.getElementById("pkmn-atk");
+    let def = document.getElementById("pkmn-def");
+    let spd = document.getElementById("pkmn-spd");
     let height = document.getElementById("pkmn-height");
     let weight = document.getElementById("pkmn-weight");
     let types = document.getElementById("pkmn-type");
@@ -47,6 +51,10 @@ function callApi() {
 
     name.innerHTML = data.name.charAt(0).toUpperCase() + data.name.slice(1);
     pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' id='pkmn-img'>";
+    hp.innerHTML = "<strong>HP: <span>" + data.stats[5].base_stat + "</span></strong>";
+    atk.innerHTML = "<strong>ATK: <span>" + data.stats[4].base_stat + "</span></strong>";
+    def.innerHTML = "<strong>DEF: <span>" + data.stats[3].base_stat + "</span></strong>";
+    spd.innerHTML = "<strong>SPD: <span>" + data.stats[0].base_stat + "</span></strong>";
     height.innerHTML = "<strong>Height:</strong> " + Math.floor(feet) + "ft " + Math.floor(Math.floor(inch) / 10) + "in";
     weight.innerHTML = "<strong>Weight:</strong> " + Math.floor(pkmnWeight) / 10 + " lbs";
     types.innerHTML = "<strong>Type(s):</strong> " + pkmnDataType.slice(0, -2);

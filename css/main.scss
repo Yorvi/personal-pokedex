@@ -217,11 +217,75 @@ main {
 
     div.pokédex-stats {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       margin: 15px;
       
-      
+      div.pkmn-hp {
+        grid-column: 1/2;
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a;
+
+        div#pkmn-hp {
+          padding: 5px;
+
+          span {
+            color: #00C851;
+          }
+        }
+      }
+      div.pkmn-atk {
+        grid-column: 2/3;
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a;
+
+        div#pkmn-atk {
+          padding: 5px;
+
+          span {
+            color: #CC0000;
+          }
+        }
+      }
+      div.pkmn-def {
+        grid-column: 3/4;
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a;
+
+        div#pkmn-def {
+          padding: 5px;
+
+          span {
+            color: #82B1FF;
+          }
+        }
+      }
+      div.pkmn-spd {
+        grid-column: 4/5;
+        background-color: $white;
+        border: 1px solid $black;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a;
+
+        div#pkmn-spd {
+          padding: 5px;
+
+          span {
+            color: #FFBB33;
+          }
+        }
+      }
       div.pkmn-height {
+        grid-column: 1/3;
         background-color: $white;
         border: 1px solid $black;
         margin: 5px;
@@ -233,6 +297,7 @@ main {
         }
       }
       div.pkmn-weight {
+        grid-column: 3/5;
         background-color: $white;
         border: 1px solid $black;
         margin: 5px;
@@ -244,7 +309,7 @@ main {
         }
       }
       div.pkmn-type {
-        grid-column: 1/3;
+        grid-column: 1/5;
         background-color: $white;
         border: 1px solid $black;
         margin: 5px;
@@ -256,7 +321,7 @@ main {
         }
       }
       div.pkmn-stats {
-        grid-column: 1/3;
+        grid-column: 1/6;
         background-color: $white;
         border: 1px solid $black;
         margin: 5px;

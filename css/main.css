@@ -166,9 +166,54 @@ main {
           margin: 15px 0 0; }
     main div#pokédex div.pokédex-stats {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       margin: 15px; }
+      main div#pokédex div.pokédex-stats div.pkmn-hp {
+        grid-column: 1/2;
+        background-color: #FCFCFF;
+        border: 1px solid #212121;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
+        main div#pokédex div.pokédex-stats div.pkmn-hp div#pkmn-hp {
+          padding: 5px; }
+          main div#pokédex div.pokédex-stats div.pkmn-hp div#pkmn-hp span {
+            color: #00C851; }
+      main div#pokédex div.pokédex-stats div.pkmn-atk {
+        grid-column: 2/3;
+        background-color: #FCFCFF;
+        border: 1px solid #212121;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
+        main div#pokédex div.pokédex-stats div.pkmn-atk div#pkmn-atk {
+          padding: 5px; }
+          main div#pokédex div.pokédex-stats div.pkmn-atk div#pkmn-atk span {
+            color: #CC0000; }
+      main div#pokédex div.pokédex-stats div.pkmn-def {
+        grid-column: 3/4;
+        background-color: #FCFCFF;
+        border: 1px solid #212121;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
+        main div#pokédex div.pokédex-stats div.pkmn-def div#pkmn-def {
+          padding: 5px; }
+          main div#pokédex div.pokédex-stats div.pkmn-def div#pkmn-def span {
+            color: #82B1FF; }
+      main div#pokédex div.pokédex-stats div.pkmn-spd {
+        grid-column: 4/5;
+        background-color: #FCFCFF;
+        border: 1px solid #212121;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
+        main div#pokédex div.pokédex-stats div.pkmn-spd div#pkmn-spd {
+          padding: 5px; }
+          main div#pokédex div.pokédex-stats div.pkmn-spd div#pkmn-spd span {
+            color: #FFBB33; }
       main div#pokédex div.pokédex-stats div.pkmn-height {
+        grid-column: 1/3;
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
@@ -177,6 +222,7 @@ main {
         main div#pokédex div.pokédex-stats div.pkmn-height div#pkmn-height {
           padding: 5px; }
       main div#pokédex div.pokédex-stats div.pkmn-weight {
+        grid-column: 3/5;
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
@@ -185,7 +231,7 @@ main {
         main div#pokédex div.pokédex-stats div.pkmn-weight div#pkmn-weight {
           padding: 5px; }
       main div#pokédex div.pokédex-stats div.pkmn-type {
-        grid-column: 1/3;
+        grid-column: 1/5;
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
@@ -194,7 +240,7 @@ main {
         main div#pokédex div.pokédex-stats div.pkmn-type div#pkmn-type {
           padding: 5px; }
       main div#pokédex div.pokédex-stats div.pkmn-stats {
-        grid-column: 1/3;
+        grid-column: 1/6;
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
