@@ -64,6 +64,7 @@ function callApi() {
     abl4.innerHTML = data.moves[6].move.name.charAt(0).toUpperCase() + data.moves[6].move.name.slice(1);
 
   }).catch(error => {
+    alert("Pokémon name or ID# does not exist. Please check your spelling or try another number. The API might also be down.");
     console.log(error);
   });
 }
