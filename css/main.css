@@ -21,6 +21,35 @@ body {
   max-width: 550px;
   margin: auto; }
 
+div#nav {
+  width: 95%;
+  max-width: 1024px;
+  margin: 10px auto;
+  padding: 25px 5px;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  font-family: "Press Start 2P", cursive;
+  height: 45px;
+  background-color: #FF6369;
+  border: 7px solid #DA4348;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px #2121217a; }
+  div#nav img {
+    width: 50px;
+    height: 50px; }
+  div#nav div:nth-child(2) {
+    padding: 15px 0;
+    text-align: center;
+    color: #FCFCFF;
+    text-shadow: -1px -1px 0 #3F729B, 1px -1px 0 #3F729B, -1px 1px 0 #82B1FF, 1px 1px 0 #82B1FF; }
+  div#nav div:nth-last-child(1) {
+    font-size: 70%;
+    padding: 16px 5px 16px 0;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FCFCFF;
+    text-shadow: -1px -1px 0 #82B1FF, 1px -1px 0 #82B1FF, -1px 1px 0 #3F729B, 1px 1px 0 #3F729B; }
+
 main {
   width: 95%;
   max-width: 1024px;
@@ -28,12 +57,14 @@ main {
   background-color: #82B1FF;
   border: 7px solid #3F729B;
   border-radius: 25px;
-  padding: 25px 5px; }
+  padding: 25px 5px;
+  box-shadow: 1px 1px 10px #2121217a; }
   main div#pokédex {
     background-color: red;
     width: 450px;
     border-radius: 15px;
-    border: 2px solid #212121; }
+    border: 2px solid #212121;
+    box-shadow: 1px 1px 10px #2121217a; }
     main div#pokédex div.pokédex-top {
       display: grid;
       grid-template-columns: 5fr 10fr;
@@ -52,28 +83,32 @@ main {
           background-image: linear-gradient(110deg, #FCFCFF, #7DD1F0, #5d9ed4, #3F729B);
           border: 3px solid #FCFCFF;
           margin: 5px 10px;
-          animation: rotate 7s linear infinite; }
+          animation: rotate 7s linear infinite;
+          box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-top div.top-left div.sm-circle-1 {
           width: 15px;
           height: 15px;
           border-radius: 100%;
           background-image: linear-gradient(180deg, #FCFCFF, #FF4444, #CC0000);
           border: 1.5px solid #FCFCFF;
-          margin: 5px 0; }
+          margin: 5px 0;
+          box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-top div.top-left div.sm-circle-2 {
           width: 15px;
           height: 15px;
           border-radius: 100%;
           background-image: linear-gradient(180deg, #FCFCFF, #FFBB33, #FF8800);
           border: 1.5px solid #FCFCFF;
-          margin: 5px 5px; }
+          margin: 5px 5px;
+          box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-top div.top-left div.sm-circle-3 {
           width: 15px;
           height: 15px;
           border-radius: 100%;
           background-image: linear-gradient(180deg, #FCFCFF, #00C851, #007E33);
           border: 1.5px solid #FCFCFF;
-          margin: 5px 0; }
+          margin: 5px 0;
+          box-shadow: 1px 1px 5px #2121217a; }
       main div#pokédex div.pokédex-top div.search-bar {
         align-self: end;
         text-align: center; }
@@ -84,7 +119,8 @@ main {
           font-size: 80%;
           border-radius: 20px;
           border: 2px solid #82B1FF;
-          padding: 1px 10px; }
+          padding: 1px 10px;
+          box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-top div.search-bar button {
           font-family: "Play", sans-serif;
           background-color: #3F729B;
@@ -93,7 +129,8 @@ main {
           height: 29px;
           font-size: 100%;
           border-radius: 20px;
-          transition: background-color .3s; }
+          transition: background-color .3s;
+          box-shadow: 1px 1px 5px #2121217a; }
           main div#pokédex div.pokédex-top div.search-bar button:hover {
             background-color: #82B1FF;
             cursor: pointer; }
@@ -105,7 +142,8 @@ main {
       background-color: #FCFCFF;
       border: 5px solid #212121;
       border-radius: 10px;
-      margin: 15px; }
+      margin: 15px;
+      box-shadow: 2px 2px 15px #2121217a; }
       main div#pokédex div.pokédex-screen div.screen-title {
         display: grid;
         grid-template-columns: 1fr 5fr 1fr;
@@ -119,13 +157,13 @@ main {
           font-weight: bold; }
       main div#pokédex div.pokédex-screen div.screen-showcase {
         text-align: center;
-        background-image: url(../images/pokedex-background.gif);
-        background-size: cover; }
+        background-image: url(../images/pokedex-background3.gif);
+        background-size: contain; }
         main div#pokédex div.pokédex-screen div.screen-showcase img {
           border-radius: 100%;
-          width: 150px;
-          height: 150px;
-          margin: 25px 0 0; }
+          width: 175px;
+          height: 175px;
+          margin: 15px 0 0; }
     main div#pokédex div.pokédex-stats {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -134,14 +172,16 @@ main {
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
-        border-radius: 5px; }
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-stats div.pkmn-height div#pkmn-height {
           padding: 5px; }
       main div#pokédex div.pokédex-stats div.pkmn-weight {
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
-        border-radius: 5px; }
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-stats div.pkmn-weight div#pkmn-weight {
           padding: 5px; }
       main div#pokédex div.pokédex-stats div.pkmn-type {
@@ -149,7 +189,8 @@ main {
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
-        border-radius: 5px; }
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-stats div.pkmn-type div#pkmn-type {
           padding: 5px; }
       main div#pokédex div.pokédex-stats div.pkmn-stats {
@@ -157,35 +198,58 @@ main {
         background-color: #FCFCFF;
         border: 1px solid #212121;
         margin: 5px;
-        border-radius: 5px; }
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-stats div.pkmn-stats div.stats-title {
           padding: 5px;
-          border-bottom: 1px solid #212121; }
+          border-bottom: 1px solid #212121;
+          box-shadow: 1px 1px 5px #2121217a; }
         main div#pokédex div.pokédex-stats div.pkmn-stats div.stats-data {
           padding: 5px; }
 
-div#nav {
-  width: 95%;
-  max-width: 1024px;
-  margin: 10px auto;
-  padding: 25px 5px;
-  display: grid;
-  grid-template-columns: 1fr 10fr 1fr;
-  font-family: "Press Start 2P", cursive;
-  height: 45px;
-  background-color: #FF6369;
-  border: 7px solid #DA4348;
-  border-radius: 25px; }
-  div#nav img {
-    width: 50px;
-    height: 50px; }
+@media only screen and (max-width: 477px) {
   div#nav div:nth-child(2) {
-    padding: 15px 0;
-    text-align: center; }
-  div#nav div:nth-last-child(1) {
-    font-size: 70%;
-    padding: 16px 5px 16px 0;
-    letter-spacing: 1px;
-    text-align: center; }
+    padding: 20px 0;
+    font-size: 80%; }
+
+  main div#pokédex {
+    width: 400px; } }
+@media only screen and (max-width: 431px) {
+  div#nav {
+    width: 97%;
+    padding: 25px 0; }
+    div#nav div:nth-child(2) {
+      padding: 5px 0;
+      line-height: 25px;
+      font-size: 100%; }
+
+  main {
+    width: 97%;
+    background-color: #82B1FF;
+    border: 7px solid #3F729B;
+    border-radius: 25px;
+    padding: 15px 0; }
+    main div#pokédex {
+      width: 350px; }
+      main div#pokédex div.pokédex-top {
+        display: grid;
+        grid-template-columns: 5fr 10fr;
+        background-color: #00000025;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 10px 0;
+        border-bottom: 2px solid #212121; }
+        main div#pokédex div.pokédex-top div.search-bar {
+          align-self: end;
+          text-align: center; }
+          main div#pokédex div.pokédex-top div.search-bar input {
+            width: 125px;
+            font-size: 60%;
+            border-radius: 15px;
+            padding: 1px 5px; }
+          main div#pokédex div.pokédex-top div.search-bar button {
+            height: 30px;
+            font-size: 60%;
+            border-radius: 15px; } }
 
 /*# sourceMappingURL=main.css.map */
