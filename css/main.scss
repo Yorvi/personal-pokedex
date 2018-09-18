@@ -59,7 +59,7 @@ div#nav {
 
   div:nth-last-child(1) {
     font-size: 70%;
-    padding: 16px 5px 16px 0;
+    padding: 20px 10px 16px 0;
     letter-spacing: 1px;
     text-align: center;
     color: $white;
@@ -67,7 +67,16 @@ div#nav {
     -1px -1px 0 $acc-blue,
     1px -1px 0 $acc-blue,
     -1px 1px 0 $blue,
-    1px 1px 0 $blue; 
+    1px 1px 0 $blue;
+    
+    a {
+      text-decoration: none;
+      color: $white;
+
+      &:hover {
+        color: $acc-blue;
+      }
+    }
   }
 }
 main {
