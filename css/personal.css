@@ -127,5 +127,11 @@ main {
             margin: 3px auto 2px 3px;
             width: 90%;
             height: 90%; }
+  main h1 {
+    margin: 50px 0 0;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    color: #FCFCFF;
+    text-shadow: -2px -2px 0 #FF6369, 2px -2px 0 #FF6369, -2px 2px 0 #DA4348, 2px 2px 0 #DA4348; }
 
 /*# sourceMappingURL=personal.css.map */

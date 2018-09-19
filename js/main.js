@@ -70,7 +70,7 @@ function callApi() {
 }
 
 button.addEventListener("click", () => {
-  input = document.getElementById("search-input").value;
+  input = document.getElementById("search-input").value.toLowerCase();
   apiUrl = apiUrl + input;
   callApi();
   apiUrl = apiUrlReset;

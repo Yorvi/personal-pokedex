@@ -179,7 +179,19 @@ main {
           }
         }
         
-      }
-    }
+      }  
+    } 
+  }
+
+  h1 {
+    margin: 50px 0 0;
+    text-align: center;
+    font-family: $gba-font;
+    color: $white;
+    text-shadow:
+    -2px -2px 0 $red,
+    2px -2px 0 $red,
+    -2px 2px 0 $acc-red,
+    2px 2px 0 $acc-red;
   }
 }
