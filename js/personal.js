@@ -180,7 +180,41 @@ axios.get("https://pokeapi.co/api/v2/pokemon/3/").then((response) => {
 })
 
 
+function flipCard1() {
+  let card = document.getElementById("card1");
 
+  card.classList.toggle("flip");
+}
+
+function flipCard2() {
+  let card = document.getElementById("card2");
+
+  card.classList.toggle("flip");
+}
+
+function flipCard3() {
+  let card = document.getElementById("card3");
+
+  card.classList.toggle("flip");
+}
+
+function flipCard4() {
+  let card = document.getElementById("card4");
+
+  card.classList.toggle("flip");
+}
+
+function flipCard5() {
+  let card = document.getElementById("card5");
+
+  card.classList.toggle("flip");
+}
+
+function flipCard6() {
+  let card = document.getElementById("card6");
+
+  card.classList.toggle("flip");
+}
 
 
 

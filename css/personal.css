@@ -143,14 +143,16 @@ main {
     position: relative;
     width: 100%;
     height: 320px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    perspective: 500px; }
     main div.card-container div.card {
       justify-self: center;
       width: 90%;
       height: 90%;
       transform-style: preserve-3d;
-      transition: all 1s ease; }
-      main div.card-container div.card:hover {
+      transition: all 1s ease;
+      cursor: pointer; }
+      main div.card-container div.card.flip {
         transform: rotateY(180deg); }
       main div.card-container div.card div.card-front {
         position: absolute;
@@ -160,7 +162,9 @@ main {
         background-color: #ffc728;
         color: #333;
         border-radius: 5px;
-        border: 3px solid green; }
+        background-image: url(../images/card-back.png);
+        background-size: cover;
+        border: 5px solid #141480; }
       main div.card-container div.card div.card-back {
         position: absolute;
         width: 100%;
