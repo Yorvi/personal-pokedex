@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <title>Yorvi's Pokémon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/personal.css" />
   <link rel="shortcut icon" href="images/pokeball.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Play:400,700|Press+Start+2P" rel="stylesheet">
 </head>
@@ -20,10 +20,36 @@
     </div>
   </div>
   <main>
-    <div class="container">
+    <div class="container" id="trainer-card">
+      <div class="banner">
+        POKÉMON TRAINER CARD
+      </div>
+      <div class="card-main">
+        <div class="card-left">
+          <img src="images/yorvi-rasputin.jpg" >
+        </div>
+        <div class="card-mid">
+          <div class="trainer-info">Name: Yorvi Rasputin</div>
+          <div class="trainer-info">Age: 23</div>
+          <div class="trainer-info">Gender: Male</div>
+          <div class="trainer-info">Hometown: Pallet Town</div>
+          <div class="trainer-info">Region: Kanto</div>
+          <div class="trainer-info">Trainer Class: S</div>
+        </div>
+        <div class="card-right">
+          <div>POKÉMON</div>
+          <div id="my-pkmn1"></div>
+          <div id="my-pkmn2"></div>
+          <div id="my-pkmn3"></div>
+          <div id="my-pkmn4"></div>
+          <div id="my-pkmn5"></div>
+          <div id="my-pkmn6"></div>
+        </div>
+      </div>
     </div>
   </main>
 
-  <script src="personal.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/personal.js"></script>
 </body>
 </html>
