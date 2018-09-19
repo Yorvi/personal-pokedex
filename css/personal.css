@@ -105,6 +105,7 @@ main {
           letter-spacing: 1px; }
       main div#trainer-card div.card-main div.card-right {
         display: grid;
+        grid-gap: 1px;
         grid-template-columns: 1fr 1fr;
         margin: 12px; }
         main div#trainer-card div.card-main div.card-right div:nth-child(1) {
@@ -120,6 +121,7 @@ main {
           text-shadow: -1px -1px 0 #3F729B, 1px -1px 0 #3F729B, -1px 1px 0 #82B1FF, 1px 1px 0 #82B1FF; }
         main div#trainer-card div.card-main div.card-right div {
           background-color: rgba(250, 250, 255, 0.25);
+          border-radius: 2px;
           border: 2px solid #DA4348; }
           main div#trainer-card div.card-main div.card-right div img {
             margin: 3px auto 2px 3px;
