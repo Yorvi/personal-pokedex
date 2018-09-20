@@ -401,7 +401,8 @@ main {
               font-weight: 900;
               padding-left: 15px; }
           main div.card-container div.card div.snorlax div.card-top div.card-hp {
-            padding: 5px 1px; }
+            padding: 5px 1px;
+            color: white; }
             main div.card-container div.card div.snorlax div.card-top div.card-hp small {
               font-size: 30%;
               font-weight: 900; }
@@ -438,10 +439,12 @@ main {
               font-weight: 900; }
         main div.card-container div.card div.snorlax div.card-desc {
           font-size: 20%;
-          padding: 5px; }
+          padding: 5px;
+          color: white; }
         main div.card-container div.card div.snorlax div.card-abl {
           display: grid;
-          grid-template-columns: 1fr 1fr; }
+          grid-template-columns: 1fr 1fr;
+          color: white; }
           main div.card-container div.card div.snorlax div.card-abl div.title {
             grid-column: 1/3;
             padding: 0 5px;
