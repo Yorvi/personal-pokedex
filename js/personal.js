@@ -29,155 +29,173 @@ class Pokemon {
   }
 }
 
-axios.get("https://pokeapi.co/api/v2/pokemon/59/").then((response) => {
-
-  let data = response.data
-
-  let pkmnImg = document.getElementById("my-pkmn1");
-
-  let arcanine = new Pokemon(
-    data.id,
-    data.name,
-    data.stats[5].base_stat,
-    data.stats[4].base_stat,
-    data.stats[3].base_stat,
-
-    data.moves[0].move.name,
-    data.moves[1].move.name,
-    data.moves[2].move.name,
-    data.moves[7].move.name,
+axios
+  .get(
+    "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/59/index.json"
   )
+  .then(response => {
+    let data = response.data;
 
-  pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+    let pkmnImg = document.getElementById("my-pkmn1");
 
-}).catch((error) => {
-  console.log(error)
-})
+    let arcanine = new Pokemon(
+      data.id,
+      data.name,
+      data.stats[5].base_stat,
+      data.stats[4].base_stat,
+      data.stats[3].base_stat,
 
-axios.get("https://pokeapi.co/api/v2/pokemon/65/").then((response) => {
+      data.moves[0].move.name,
+      data.moves[1].move.name,
+      data.moves[2].move.name,
+      data.moves[7].move.name
+    );
 
-  let data = response.data
+    pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
-  let pkmnImg = document.getElementById("my-pkmn2");
-
-  let alakazam = new Pokemon(
-    data.id,
-    data.name,
-    data.stats[5].base_stat,
-    data.stats[4].base_stat,
-    data.stats[3].base_stat,
-
-    data.moves[0].move.name,
-    data.moves[1].move.name,
-    data.moves[2].move.name,
-    data.moves[7].move.name,
+axios
+  .get(
+    "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/65/index.json"
   )
+  .then(response => {
+    let data = response.data;
 
-  pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+    let pkmnImg = document.getElementById("my-pkmn2");
 
-}).catch((error) => {
-  console.log(error)
-})
+    let alakazam = new Pokemon(
+      data.id,
+      data.name,
+      data.stats[5].base_stat,
+      data.stats[4].base_stat,
+      data.stats[3].base_stat,
 
-axios.get("https://pokeapi.co/api/v2/pokemon/143/").then((response) => {
+      data.moves[0].move.name,
+      data.moves[1].move.name,
+      data.moves[2].move.name,
+      data.moves[7].move.name
+    );
 
-  let data = response.data
+    pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
-  let pkmnImg = document.getElementById("my-pkmn3");
-
-  let snorlax = new Pokemon(
-    data.id,
-    data.name,
-    data.stats[5].base_stat,
-    data.stats[4].base_stat,
-    data.stats[3].base_stat,
-
-    data.moves[0].move.name,
-    data.moves[1].move.name,
-    data.moves[2].move.name,
-    data.moves[7].move.name,
+axios
+  .get(
+    "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/143/index.json"
   )
+  .then(response => {
+    let data = response.data;
 
-  pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+    let pkmnImg = document.getElementById("my-pkmn3");
 
-}).catch((error) => {
-  console.log(error)
-})
+    let snorlax = new Pokemon(
+      data.id,
+      data.name,
+      data.stats[5].base_stat,
+      data.stats[4].base_stat,
+      data.stats[3].base_stat,
 
-axios.get("https://pokeapi.co/api/v2/pokemon/145/").then((response) => {
+      data.moves[0].move.name,
+      data.moves[1].move.name,
+      data.moves[2].move.name,
+      data.moves[7].move.name
+    );
 
-  let data = response.data
+    pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
-  let pkmnImg = document.getElementById("my-pkmn4");
-
-  let zapdos = new Pokemon(
-    data.id,
-    data.name,
-    data.stats[5].base_stat,
-    data.stats[4].base_stat,
-    data.stats[3].base_stat,
-
-    data.moves[0].move.name,
-    data.moves[1].move.name,
-    data.moves[2].move.name,
-    data.moves[7].move.name,
+axios
+  .get(
+    "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/145/index.json"
   )
+  .then(response => {
+    let data = response.data;
 
-  pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+    let pkmnImg = document.getElementById("my-pkmn4");
 
-}).catch((error) => {
-  console.log(error)
-})
+    let zapdos = new Pokemon(
+      data.id,
+      data.name,
+      data.stats[5].base_stat,
+      data.stats[4].base_stat,
+      data.stats[3].base_stat,
 
-axios.get("https://pokeapi.co/api/v2/pokemon/149/").then((response) => {
+      data.moves[0].move.name,
+      data.moves[1].move.name,
+      data.moves[2].move.name,
+      data.moves[7].move.name
+    );
 
-  let data = response.data
+    pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
-  let pkmnImg = document.getElementById("my-pkmn5");
-
-  let dragonite = new Pokemon(
-    data.id,
-    data.name,
-    data.stats[5].base_stat,
-    data.stats[4].base_stat,
-    data.stats[3].base_stat,
-
-    data.moves[0].move.name,
-    data.moves[1].move.name,
-    data.moves[2].move.name,
-    data.moves[7].move.name,
+axios
+  .get(
+    "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/149/index.json"
   )
+  .then(response => {
+    let data = response.data;
 
-  pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+    let pkmnImg = document.getElementById("my-pkmn5");
 
-}).catch((error) => {
-  console.log(error)
-})
+    let dragonite = new Pokemon(
+      data.id,
+      data.name,
+      data.stats[5].base_stat,
+      data.stats[4].base_stat,
+      data.stats[3].base_stat,
 
-axios.get("https://pokeapi.co/api/v2/pokemon/3/").then((response) => {
+      data.moves[0].move.name,
+      data.moves[1].move.name,
+      data.moves[2].move.name,
+      data.moves[7].move.name
+    );
 
-  let data = response.data
+    pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
-  let pkmnImg = document.getElementById("my-pkmn6");
-
-  let venusaur = new Pokemon(
-    data.id,
-    data.name,
-    data.stats[5].base_stat,
-    data.stats[4].base_stat,
-    data.stats[3].base_stat,
-
-    data.moves[0].move.name,
-    data.moves[1].move.name,
-    data.moves[2].move.name,
-    data.moves[7].move.name,
+axios
+  .get(
+    "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/3/index.json"
   )
+  .then(response => {
+    let data = response.data;
 
-  pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+    let pkmnImg = document.getElementById("my-pkmn6");
 
-}).catch((error) => {
-  console.log(error)
-})
+    let venusaur = new Pokemon(
+      data.id,
+      data.name,
+      data.stats[5].base_stat,
+      data.stats[4].base_stat,
+      data.stats[3].base_stat,
+
+      data.moves[0].move.name,
+      data.moves[1].move.name,
+      data.moves[2].move.name,
+      data.moves[7].move.name
+    );
+
+    pkmnImg.innerHTML = "<img src='" + data.sprites.front_default + "' >";
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
 
 function flipCard1() {

@@ -1,7 +1,9 @@
 let input = document.getElementById("search-input");
 let button = document.getElementById("button");
-let apiUrl = "https://pokeapi.co/api/v2/pokemon/";
-let apiUrlReset = "https://pokeapi.co/api/v2/pokemon/";
+let apiUrl =
+  "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/";
+let apiUrlReset =
+  "https://raw.githubusercontent.com/Yorvi/api-data/master/data/api/v2/pokemon/";
 
 input.addEventListener("keyup", function(event) {
   event.preventDefault();
@@ -64,14 +66,14 @@ function callApi() {
     abl4.innerHTML = data.moves[6].move.name.charAt(0).toUpperCase() + data.moves[6].move.name.slice(1);
 
   }).catch(error => {
-    alert("Pokémon name or ID# does not exist. Please check your spelling or try another number. The API might also be down.");
+    alert("OH NO!... The Pokémon you are looking for either doesn't exist or you are not using an integer. The Pokémon API cannot retrieve data using names anymore, Please use the Pokémon ID #.");
     console.log(error);
   });
 }
 
 button.addEventListener("click", () => {
   input = document.getElementById("search-input").value.toLowerCase();
-  apiUrl = apiUrl + input;
+  apiUrl = apiUrl + input + "/index.json";
   callApi();
   apiUrl = apiUrlReset;
 });
