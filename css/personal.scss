@@ -358,7 +358,16 @@ main {
         }
         div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr;
+          grid-template-columns: 1fr 2fr 1fr 1fr;
+
+          div.pkmn-type{
+
+            img {
+              width: 20px;
+              height: 20px;
+              padding: 5px 0 0 10px;
+            }
+          }
 
           div.card-atk {
             font-size: 40%;
@@ -501,7 +510,16 @@ main {
         }
         div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr;
+          grid-template-columns: 1fr 2fr 1fr 1fr;
+
+          div.pkmn-type{
+
+            img {
+              width: 20px;
+              height: 20px;
+              padding: 5px 0 0 10px;
+            }
+          }
 
           div.card-atk {
             font-size: 40%;
@@ -647,7 +665,16 @@ main {
         }
         div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr;
+          grid-template-columns: 1fr 2fr 1fr 1fr;
+
+          div.pkmn-type{
+
+            img {
+              width: 20px;
+              height: 20px;
+              padding: 5px 0 0 10px;
+            }
+          }
 
           div.card-atk {
             font-size: 40%;
@@ -790,7 +817,16 @@ main {
         }
         div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr;
+          grid-template-columns: 1fr 2fr 1fr 1fr;
+
+          div.pkmn-type{
+
+            img {
+              width: 20px;
+              height: 20px;
+              padding: 5px 0 0 10px;
+            }
+          }
 
           div.card-atk {
             font-size: 40%;
@@ -933,7 +969,16 @@ main {
         }
         div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr;
+          grid-template-columns: 1fr 2fr 1fr 1fr;
+
+          div.pkmn-type{
+
+            img {
+              width: 20px;
+              height: 20px;
+              padding: 5px 0 0 10px;
+            }
+          }
 
           div.card-atk {
             font-size: 40%;
@@ -1076,7 +1121,16 @@ main {
         }
         div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr;
+          grid-template-columns: 1fr 2fr 1fr 1fr;
+
+          div.pkmn-type{
+
+            img {
+              width: 20px;
+              height: 20px;
+              padding: 5px 0 0 10px;
+            }
+          }
 
           div.card-atk {
             font-size: 40%;

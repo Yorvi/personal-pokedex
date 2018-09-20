@@ -258,7 +258,11 @@ main {
             list-style: circle; }
         main div.card-container div.card div.arcanine div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr; }
+          grid-template-columns: 1fr 2fr 1fr 1fr; }
+          main div.card-container div.card div.arcanine div.card-btm div.pkmn-type img {
+            width: 20px;
+            height: 20px;
+            padding: 5px 0 0 10px; }
           main div.card-container div.card div.arcanine div.card-btm div.card-atk {
             font-size: 40%;
             background-color: #6f0e1e;
@@ -360,7 +364,11 @@ main {
             list-style: circle; }
         main div.card-container div.card div.alakazam div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr; }
+          grid-template-columns: 1fr 2fr 1fr 1fr; }
+          main div.card-container div.card div.alakazam div.card-btm div.pkmn-type img {
+            width: 20px;
+            height: 20px;
+            padding: 5px 0 0 10px; }
           main div.card-container div.card div.alakazam div.card-btm div.card-atk {
             font-size: 40%;
             background-color: #710193;
@@ -465,7 +473,11 @@ main {
             list-style: circle; }
         main div.card-container div.card div.snorlax div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr; }
+          grid-template-columns: 1fr 2fr 1fr 1fr; }
+          main div.card-container div.card div.snorlax div.card-btm div.pkmn-type img {
+            width: 20px;
+            height: 20px;
+            padding: 5px 0 0 10px; }
           main div.card-container div.card div.snorlax div.card-btm div.card-atk {
             font-size: 40%;
             background-color: #403f4d;
@@ -567,7 +579,11 @@ main {
             list-style: circle; }
         main div.card-container div.card div.zapdos div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr; }
+          grid-template-columns: 1fr 2fr 1fr 1fr; }
+          main div.card-container div.card div.zapdos div.card-btm div.pkmn-type img {
+            width: 20px;
+            height: 20px;
+            padding: 5px 0 0 10px; }
           main div.card-container div.card div.zapdos div.card-btm div.card-atk {
             font-size: 40%;
             background-color: #9c7201;
@@ -669,7 +685,11 @@ main {
             list-style: circle; }
         main div.card-container div.card div.dragonite div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr; }
+          grid-template-columns: 1fr 2fr 1fr 1fr; }
+          main div.card-container div.card div.dragonite div.card-btm div.pkmn-type img {
+            width: 20px;
+            height: 20px;
+            padding: 5px 0 0 10px; }
           main div.card-container div.card div.dragonite div.card-btm div.card-atk {
             font-size: 40%;
             background-color: #403f4d;
@@ -771,7 +791,11 @@ main {
             list-style: circle; }
         main div.card-container div.card div.venusaur div.card-btm {
           display: grid;
-          grid-template-columns: 3fr 1fr 1fr; }
+          grid-template-columns: 1fr 2fr 1fr 1fr; }
+          main div.card-container div.card div.venusaur div.card-btm div.pkmn-type img {
+            width: 20px;
+            height: 20px;
+            padding: 5px 0 0 10px; }
           main div.card-container div.card div.venusaur div.card-btm div.card-atk {
             font-size: 40%;
             background-color: #043927;
