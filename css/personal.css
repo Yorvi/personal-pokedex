@@ -154,7 +154,7 @@ main {
       cursor: pointer; }
       main div.card-container div.card.flip {
         transform: rotateY(180deg); }
-      main div.card-container div.card div.card-back {
+      main div.card-container div.card div.card-front {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -166,7 +166,7 @@ main {
         background-size: cover;
         border: 5px solid #141480;
         box-shadow: 1px 1px 15px #2121217a; }
-      main div.card-container div.card div.card-front {
+      main div.card-container div.card div.card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -385,15 +385,15 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         border: 5px solid gold;
-        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        background-image: radial-gradient(circle, #c6c6d0, #9897a9, #4c516d, #1d2951); }
         main div.card-container div.card div.snorlax div.card-top {
           display: grid;
           height: 15px;
           grid-template-columns: 4.5fr 1.5fr; }
           main div.card-container div.card div.snorlax div.card-top div.card-name {
-            background-color: #dd9371;
-            border-bottom: 2px solid #6f0e1e;
-            border-right: 2px solid #6f0e1e;
+            background-color: #FCFCFF;
+            border-bottom: 2px solid #403f4d;
+            border-right: 2px solid #403f4d;
             border-bottom-right-radius: 100px;
             padding: 5px 10px; }
             main div.card-container div.card div.snorlax div.card-top div.card-name small {
@@ -427,9 +427,9 @@ main {
             justify-self: center;
             text-align: center;
             border: 1px solid white;
-            background-color: #dd9371;
-            border-bottom: 1px solid #6f0e1e;
-            border-top: 1px solid #6f0e1e;
+            background-color: #FCFCFF;
+            border-bottom: 1px solid #403f4d;
+            border-top: 1px solid #403f4d;
             height: 15px;
             width: 90%;
             border-radius: 5px; }
@@ -465,7 +465,7 @@ main {
           grid-template-columns: 3fr 1fr 1fr; }
           main div.card-container div.card div.snorlax div.card-btm div.card-atk {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #403f4d;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
@@ -475,7 +475,7 @@ main {
               color: #FFBB33; }
           main div.card-container div.card div.snorlax div.card-btm div.card-def {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #403f4d;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
@@ -487,15 +487,15 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         border: 5px solid gold;
-        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        background-image: radial-gradient(circle, #fcf4a3, #fedc56, #fce205, #ffd300); }
         main div.card-container div.card div.zapdos div.card-top {
           display: grid;
           height: 15px;
           grid-template-columns: 4.5fr 1.5fr; }
           main div.card-container div.card div.zapdos div.card-top div.card-name {
-            background-color: #dd9371;
-            border-bottom: 2px solid #6f0e1e;
-            border-right: 2px solid #6f0e1e;
+            background-color: #fcf4a3;
+            border-bottom: 2px solid #ffd300;
+            border-right: 2px solid #ffd300;
             border-bottom-right-radius: 100px;
             padding: 5px 10px; }
             main div.card-container div.card div.zapdos div.card-top div.card-name small {
@@ -529,9 +529,9 @@ main {
             justify-self: center;
             text-align: center;
             border: 1px solid white;
-            background-color: #dd9371;
-            border-bottom: 1px solid #6f0e1e;
-            border-top: 1px solid #6f0e1e;
+            background-color: #fcf4a3;
+            border-bottom: 1px solid #ffd300;
+            border-top: 1px solid #ffd300;
             height: 15px;
             width: 90%;
             border-radius: 5px; }
@@ -567,7 +567,7 @@ main {
           grid-template-columns: 3fr 1fr 1fr; }
           main div.card-container div.card div.zapdos div.card-btm div.card-atk {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #9c7201;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
@@ -577,7 +577,7 @@ main {
               color: #FFBB33; }
           main div.card-container div.card div.zapdos div.card-btm div.card-def {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #9c7201;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
@@ -589,15 +589,15 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         border: 5px solid gold;
-        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        background-image: radial-gradient(circle, #FCFCFF, #c6c6d0, #adadc7, #9897a9); }
         main div.card-container div.card div.dragonite div.card-top {
           display: grid;
           height: 15px;
           grid-template-columns: 4.5fr 1.5fr; }
           main div.card-container div.card div.dragonite div.card-top div.card-name {
-            background-color: #dd9371;
-            border-bottom: 2px solid #6f0e1e;
-            border-right: 2px solid #6f0e1e;
+            background-color: #FCFCFF;
+            border-bottom: 2px solid #403f4d;
+            border-right: 2px solid #403f4d;
             border-bottom-right-radius: 100px;
             padding: 5px 10px; }
             main div.card-container div.card div.dragonite div.card-top div.card-name small {
@@ -631,9 +631,9 @@ main {
             justify-self: center;
             text-align: center;
             border: 1px solid white;
-            background-color: #dd9371;
-            border-bottom: 1px solid #6f0e1e;
-            border-top: 1px solid #6f0e1e;
+            background-color: #FCFCFF;
+            border-bottom: 1px solid #403f4d;
+            border-top: 1px solid #403f4d;
             height: 15px;
             width: 90%;
             border-radius: 5px; }
@@ -669,7 +669,7 @@ main {
           grid-template-columns: 3fr 1fr 1fr; }
           main div.card-container div.card div.dragonite div.card-btm div.card-atk {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #403f4d;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
@@ -679,7 +679,7 @@ main {
               color: #FFBB33; }
           main div.card-container div.card div.dragonite div.card-btm div.card-def {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #403f4d;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
@@ -691,15 +691,15 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         border: 5px solid gold;
-        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        background-image: radial-gradient(circle, #b2d3c2, #98fb98, #50c878, #2e8b57); }
         main div.card-container div.card div.venusaur div.card-top {
           display: grid;
           height: 15px;
           grid-template-columns: 4.5fr 1.5fr; }
           main div.card-container div.card div.venusaur div.card-top div.card-name {
-            background-color: #dd9371;
-            border-bottom: 2px solid #6f0e1e;
-            border-right: 2px solid #6f0e1e;
+            background-color: #b2d3c2;
+            border-bottom: 2px solid #043927;
+            border-right: 2px solid #043927;
             border-bottom-right-radius: 100px;
             padding: 5px 10px; }
             main div.card-container div.card div.venusaur div.card-top div.card-name small {
@@ -733,9 +733,9 @@ main {
             justify-self: center;
             text-align: center;
             border: 1px solid white;
-            background-color: #dd9371;
-            border-bottom: 1px solid #6f0e1e;
-            border-top: 1px solid #6f0e1e;
+            background-color: #b2d3c2;
+            border-bottom: 1px solid #043927;
+            border-top: 1px solid #043927;
             height: 15px;
             width: 90%;
             border-radius: 5px; }
@@ -771,7 +771,7 @@ main {
           grid-template-columns: 3fr 1fr 1fr; }
           main div.card-container div.card div.venusaur div.card-btm div.card-atk {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #043927;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
@@ -781,7 +781,7 @@ main {
               color: #FFBB33; }
           main div.card-container div.card div.venusaur div.card-btm div.card-def {
             font-size: 40%;
-            background-color: #6f0e1e;
+            background-color: #043927;
             color: #FCFCFF;
             margin: 5px 0 0;
             border-top: 1px solid #FCFCFF;
