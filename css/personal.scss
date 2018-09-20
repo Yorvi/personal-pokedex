@@ -220,7 +220,7 @@ main {
         transform: rotateY(180deg);
       }
 
-      div.card-front {
+      div.card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -231,8 +231,9 @@ main {
         background-image: url(../images/card-back.png);
         background-size: cover;
         border: 5px solid #141480;
+        box-shadow: 1px 1px 15px #2121217a;
       }
-      div.card-back {
+      div.card-front {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -242,8 +243,866 @@ main {
         transform: rotateY(180deg);
         border-radius: 5px;
         border: 3px solid green;
+        box-shadow: 1px 1px 15px #2121217a;
       }
-      
+
+      div.arcanine {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38 );
+
+        div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr;
+
+          div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px;
+            }
+          }
+
+          div.card-hp {
+            padding: 5px 1px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-img {
+          display: grid;
+          img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a;
+
+          }
+        }
+        div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0;
+
+          div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px;
+
+            small {
+              font-size: 10%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-desc {
+          font-size: 20%;
+          padding: 5px;
+        }
+        div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center;
+
+            hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+          }
+          div.abl-1 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+
+          div.abl-2 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+        }
+        div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr;
+
+          div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+          div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+        }
+      }
+
+      div.alakazam {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #e39ff6, #b660cd, #a45ee5, #710193 );
+
+        div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr;
+
+          div.card-name {
+            background-color: #e39ff6;
+            border-bottom: 2px solid #710193;
+            border-right: 2px solid #710193;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px;
+            }
+          }
+
+          div.card-hp {
+            padding: 5px 1px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-img {
+          display: grid;
+          img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a;
+
+          }
+        }
+        div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0;
+
+          div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #e39ff6;
+            border-bottom: 1px solid #710193;
+            border-top: 1px solid #710193;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px;
+
+            small {
+              font-size: 10%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-desc {
+          font-size: 20%;
+          padding: 5px;
+        }
+        div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center;
+
+            hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+          }
+          div.abl-1 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+
+          div.abl-2 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+        }
+        div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr;
+
+          div.card-atk {
+            font-size: 40%;
+            background-color: #710193;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+          div.card-def {
+            font-size: 40%;
+            background-color: #710193;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+        }
+      }
+
+      div.snorlax {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38 );
+
+        div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr;
+
+          div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px;
+            }
+          }
+
+          div.card-hp {
+            padding: 5px 1px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-img {
+          display: grid;
+          img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a;
+
+          }
+        }
+        div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0;
+
+          div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px;
+
+            small {
+              font-size: 10%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-desc {
+          font-size: 20%;
+          padding: 5px;
+        }
+        div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center;
+
+            hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+          }
+          div.abl-1 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+
+          div.abl-2 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+        }
+        div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr;
+
+          div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+          div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+        }
+      }
+
+      div.zapdos {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38 );
+
+        div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr;
+
+          div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px;
+            }
+          }
+
+          div.card-hp {
+            padding: 5px 1px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-img {
+          display: grid;
+          img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a;
+
+          }
+        }
+        div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0;
+
+          div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px;
+
+            small {
+              font-size: 10%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-desc {
+          font-size: 20%;
+          padding: 5px;
+        }
+        div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center;
+
+            hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+          }
+          div.abl-1 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+
+          div.abl-2 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+        }
+        div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr;
+
+          div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+          div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+        }
+      }
+
+      div.dragonite {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38 );
+
+        div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr;
+
+          div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px;
+            }
+          }
+
+          div.card-hp {
+            padding: 5px 1px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-img {
+          display: grid;
+          img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a;
+
+          }
+        }
+        div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0;
+
+          div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px;
+
+            small {
+              font-size: 10%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-desc {
+          font-size: 20%;
+          padding: 5px;
+        }
+        div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center;
+
+            hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+          }
+          div.abl-1 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+
+          div.abl-2 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+        }
+        div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr;
+
+          div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+          div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+        }
+      }
+
+      div.venusaur {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38 );
+
+        div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr;
+
+          div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px;
+            }
+          }
+
+          div.card-hp {
+            padding: 5px 1px;
+
+            small {
+              font-size: 30%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-img {
+          display: grid;
+          img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a;
+
+          }
+        }
+        div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0;
+
+          div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px;
+
+            small {
+              font-size: 10%;
+              font-weight: 900;
+            }
+          }
+        }
+        div.card-desc {
+          font-size: 20%;
+          padding: 5px;
+        }
+        div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center;
+
+            hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+          }
+          div.abl-1 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+
+          div.abl-2 {
+            ul {
+              margin: 0;
+              font-size: 20%;
+              list-style: circle;
+            }
+          }
+        }
+        div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr;
+
+          div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+          div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: $white;
+            margin: 5px 0 0;
+            border-top: 1px solid $white;
+            border-left: 1px solid $white;
+            padding: 4px 0 0 2px;
+
+            span {
+              color: #FFBB33;
+            }
+          }
+        }
+      }
     }
   }
 }

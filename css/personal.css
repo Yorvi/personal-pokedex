@@ -154,7 +154,7 @@ main {
       cursor: pointer; }
       main div.card-container div.card.flip {
         transform: rotateY(180deg); }
-      main div.card-container div.card div.card-front {
+      main div.card-container div.card div.card-back {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -164,8 +164,9 @@ main {
         border-radius: 5px;
         background-image: url(../images/card-back.png);
         background-size: cover;
-        border: 5px solid #141480; }
-      main div.card-container div.card div.card-back {
+        border: 5px solid #141480;
+        box-shadow: 1px 1px 15px #2121217a; }
+      main div.card-container div.card div.card-front {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -174,6 +175,619 @@ main {
         color: #333;
         transform: rotateY(180deg);
         border-radius: 5px;
-        border: 3px solid green; }
+        border: 3px solid green;
+        box-shadow: 1px 1px 15px #2121217a; }
+      main div.card-container div.card div.arcanine {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        main div.card-container div.card div.arcanine div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr; }
+          main div.card-container div.card div.arcanine div.card-top div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px; }
+            main div.card-container div.card div.arcanine div.card-top div.card-name small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px; }
+          main div.card-container div.card div.arcanine div.card-top div.card-hp {
+            padding: 5px 1px; }
+            main div.card-container div.card div.arcanine div.card-top div.card-hp small {
+              font-size: 30%;
+              font-weight: 900; }
+        main div.card-container div.card div.arcanine div.card-img {
+          display: grid; }
+          main div.card-container div.card div.arcanine div.card-img img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a; }
+        main div.card-container div.card div.arcanine div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0; }
+          main div.card-container div.card div.arcanine div.card-data div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px; }
+            main div.card-container div.card div.arcanine div.card-data div small {
+              font-size: 10%;
+              font-weight: 900; }
+        main div.card-container div.card div.arcanine div.card-desc {
+          font-size: 20%;
+          padding: 5px; }
+        main div.card-container div.card div.arcanine div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr; }
+          main div.card-container div.card div.arcanine div.card-abl div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center; }
+            main div.card-container div.card div.arcanine div.card-abl div.title hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+          main div.card-container div.card div.arcanine div.card-abl div.abl-1 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+          main div.card-container div.card div.arcanine div.card-abl div.abl-2 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+        main div.card-container div.card div.arcanine div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr; }
+          main div.card-container div.card div.arcanine div.card-btm div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.arcanine div.card-btm div.card-atk span {
+              color: #FFBB33; }
+          main div.card-container div.card div.arcanine div.card-btm div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.arcanine div.card-btm div.card-def span {
+              color: #FFBB33; }
+      main div.card-container div.card div.alakazam {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #e39ff6, #b660cd, #a45ee5, #710193); }
+        main div.card-container div.card div.alakazam div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr; }
+          main div.card-container div.card div.alakazam div.card-top div.card-name {
+            background-color: #e39ff6;
+            border-bottom: 2px solid #710193;
+            border-right: 2px solid #710193;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px; }
+            main div.card-container div.card div.alakazam div.card-top div.card-name small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px; }
+          main div.card-container div.card div.alakazam div.card-top div.card-hp {
+            padding: 5px 1px; }
+            main div.card-container div.card div.alakazam div.card-top div.card-hp small {
+              font-size: 30%;
+              font-weight: 900; }
+        main div.card-container div.card div.alakazam div.card-img {
+          display: grid; }
+          main div.card-container div.card div.alakazam div.card-img img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a; }
+        main div.card-container div.card div.alakazam div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0; }
+          main div.card-container div.card div.alakazam div.card-data div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #e39ff6;
+            border-bottom: 1px solid #710193;
+            border-top: 1px solid #710193;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px; }
+            main div.card-container div.card div.alakazam div.card-data div small {
+              font-size: 10%;
+              font-weight: 900; }
+        main div.card-container div.card div.alakazam div.card-desc {
+          font-size: 20%;
+          padding: 5px; }
+        main div.card-container div.card div.alakazam div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr; }
+          main div.card-container div.card div.alakazam div.card-abl div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center; }
+            main div.card-container div.card div.alakazam div.card-abl div.title hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+          main div.card-container div.card div.alakazam div.card-abl div.abl-1 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+          main div.card-container div.card div.alakazam div.card-abl div.abl-2 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+        main div.card-container div.card div.alakazam div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr; }
+          main div.card-container div.card div.alakazam div.card-btm div.card-atk {
+            font-size: 40%;
+            background-color: #710193;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.alakazam div.card-btm div.card-atk span {
+              color: #FFBB33; }
+          main div.card-container div.card div.alakazam div.card-btm div.card-def {
+            font-size: 40%;
+            background-color: #710193;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.alakazam div.card-btm div.card-def span {
+              color: #FFBB33; }
+      main div.card-container div.card div.snorlax {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        main div.card-container div.card div.snorlax div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr; }
+          main div.card-container div.card div.snorlax div.card-top div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px; }
+            main div.card-container div.card div.snorlax div.card-top div.card-name small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px; }
+          main div.card-container div.card div.snorlax div.card-top div.card-hp {
+            padding: 5px 1px; }
+            main div.card-container div.card div.snorlax div.card-top div.card-hp small {
+              font-size: 30%;
+              font-weight: 900; }
+        main div.card-container div.card div.snorlax div.card-img {
+          display: grid; }
+          main div.card-container div.card div.snorlax div.card-img img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a; }
+        main div.card-container div.card div.snorlax div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0; }
+          main div.card-container div.card div.snorlax div.card-data div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px; }
+            main div.card-container div.card div.snorlax div.card-data div small {
+              font-size: 10%;
+              font-weight: 900; }
+        main div.card-container div.card div.snorlax div.card-desc {
+          font-size: 20%;
+          padding: 5px; }
+        main div.card-container div.card div.snorlax div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr; }
+          main div.card-container div.card div.snorlax div.card-abl div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center; }
+            main div.card-container div.card div.snorlax div.card-abl div.title hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+          main div.card-container div.card div.snorlax div.card-abl div.abl-1 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+          main div.card-container div.card div.snorlax div.card-abl div.abl-2 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+        main div.card-container div.card div.snorlax div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr; }
+          main div.card-container div.card div.snorlax div.card-btm div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.snorlax div.card-btm div.card-atk span {
+              color: #FFBB33; }
+          main div.card-container div.card div.snorlax div.card-btm div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.snorlax div.card-btm div.card-def span {
+              color: #FFBB33; }
+      main div.card-container div.card div.zapdos {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        main div.card-container div.card div.zapdos div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr; }
+          main div.card-container div.card div.zapdos div.card-top div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px; }
+            main div.card-container div.card div.zapdos div.card-top div.card-name small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px; }
+          main div.card-container div.card div.zapdos div.card-top div.card-hp {
+            padding: 5px 1px; }
+            main div.card-container div.card div.zapdos div.card-top div.card-hp small {
+              font-size: 30%;
+              font-weight: 900; }
+        main div.card-container div.card div.zapdos div.card-img {
+          display: grid; }
+          main div.card-container div.card div.zapdos div.card-img img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a; }
+        main div.card-container div.card div.zapdos div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0; }
+          main div.card-container div.card div.zapdos div.card-data div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px; }
+            main div.card-container div.card div.zapdos div.card-data div small {
+              font-size: 10%;
+              font-weight: 900; }
+        main div.card-container div.card div.zapdos div.card-desc {
+          font-size: 20%;
+          padding: 5px; }
+        main div.card-container div.card div.zapdos div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr; }
+          main div.card-container div.card div.zapdos div.card-abl div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center; }
+            main div.card-container div.card div.zapdos div.card-abl div.title hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+          main div.card-container div.card div.zapdos div.card-abl div.abl-1 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+          main div.card-container div.card div.zapdos div.card-abl div.abl-2 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+        main div.card-container div.card div.zapdos div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr; }
+          main div.card-container div.card div.zapdos div.card-btm div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.zapdos div.card-btm div.card-atk span {
+              color: #FFBB33; }
+          main div.card-container div.card div.zapdos div.card-btm div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.zapdos div.card-btm div.card-def span {
+              color: #FFBB33; }
+      main div.card-container div.card div.dragonite {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        main div.card-container div.card div.dragonite div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr; }
+          main div.card-container div.card div.dragonite div.card-top div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px; }
+            main div.card-container div.card div.dragonite div.card-top div.card-name small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px; }
+          main div.card-container div.card div.dragonite div.card-top div.card-hp {
+            padding: 5px 1px; }
+            main div.card-container div.card div.dragonite div.card-top div.card-hp small {
+              font-size: 30%;
+              font-weight: 900; }
+        main div.card-container div.card div.dragonite div.card-img {
+          display: grid; }
+          main div.card-container div.card div.dragonite div.card-img img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a; }
+        main div.card-container div.card div.dragonite div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0; }
+          main div.card-container div.card div.dragonite div.card-data div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px; }
+            main div.card-container div.card div.dragonite div.card-data div small {
+              font-size: 10%;
+              font-weight: 900; }
+        main div.card-container div.card div.dragonite div.card-desc {
+          font-size: 20%;
+          padding: 5px; }
+        main div.card-container div.card div.dragonite div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr; }
+          main div.card-container div.card div.dragonite div.card-abl div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center; }
+            main div.card-container div.card div.dragonite div.card-abl div.title hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+          main div.card-container div.card div.dragonite div.card-abl div.abl-1 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+          main div.card-container div.card div.dragonite div.card-abl div.abl-2 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+        main div.card-container div.card div.dragonite div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr; }
+          main div.card-container div.card div.dragonite div.card-btm div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.dragonite div.card-btm div.card-atk span {
+              color: #FFBB33; }
+          main div.card-container div.card div.dragonite div.card-btm div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.dragonite div.card-btm div.card-def span {
+              color: #FFBB33; }
+      main div.card-container div.card div.venusaur {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 5px solid gold;
+        background-image: radial-gradient(circle, #c1724d, #c5531e, #d4361a, #D31A38); }
+        main div.card-container div.card div.venusaur div.card-top {
+          display: grid;
+          height: 15px;
+          grid-template-columns: 4.5fr 1.5fr; }
+          main div.card-container div.card div.venusaur div.card-top div.card-name {
+            background-color: #dd9371;
+            border-bottom: 2px solid #6f0e1e;
+            border-right: 2px solid #6f0e1e;
+            border-bottom-right-radius: 100px;
+            padding: 5px 10px; }
+            main div.card-container div.card div.venusaur div.card-top div.card-name small {
+              font-size: 30%;
+              font-weight: 900;
+              padding-left: 15px; }
+          main div.card-container div.card div.venusaur div.card-top div.card-hp {
+            padding: 5px 1px; }
+            main div.card-container div.card div.venusaur div.card-top div.card-hp small {
+              font-size: 30%;
+              font-weight: 900; }
+        main div.card-container div.card div.venusaur div.card-img {
+          display: grid; }
+          main div.card-container div.card div.venusaur div.card-img img {
+            justify-self: center;
+            width: 90%;
+            height: 100px;
+            margin: 17px 0 2px;
+            border: 3px solid silver;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px #2121217a; }
+        main div.card-container div.card div.venusaur div.card-data {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 60%;
+          margin: 0;
+          padding: 0; }
+          main div.card-container div.card div.venusaur div.card-data div {
+            padding: 2px 0 0;
+            margin-top: 3px;
+            justify-self: center;
+            text-align: center;
+            border: 1px solid white;
+            background-color: #dd9371;
+            border-bottom: 1px solid #6f0e1e;
+            border-top: 1px solid #6f0e1e;
+            height: 15px;
+            width: 90%;
+            border-radius: 5px; }
+            main div.card-container div.card div.venusaur div.card-data div small {
+              font-size: 10%;
+              font-weight: 900; }
+        main div.card-container div.card div.venusaur div.card-desc {
+          font-size: 20%;
+          padding: 5px; }
+        main div.card-container div.card div.venusaur div.card-abl {
+          display: grid;
+          grid-template-columns: 1fr 1fr; }
+          main div.card-container div.card div.venusaur div.card-abl div.title {
+            grid-column: 1/3;
+            padding: 0 5px;
+            font-size: 40%;
+            font-weight: 900;
+            text-align: center; }
+            main div.card-container div.card div.venusaur div.card-abl div.title hr {
+              border: 0;
+              height: 1px;
+              background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+          main div.card-container div.card div.venusaur div.card-abl div.abl-1 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+          main div.card-container div.card div.venusaur div.card-abl div.abl-2 ul {
+            margin: 0;
+            font-size: 20%;
+            list-style: circle; }
+        main div.card-container div.card div.venusaur div.card-btm {
+          display: grid;
+          grid-template-columns: 3fr 1fr 1fr; }
+          main div.card-container div.card div.venusaur div.card-btm div.card-atk {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.venusaur div.card-btm div.card-atk span {
+              color: #FFBB33; }
+          main div.card-container div.card div.venusaur div.card-btm div.card-def {
+            font-size: 40%;
+            background-color: #6f0e1e;
+            color: #FCFCFF;
+            margin: 5px 0 0;
+            border-top: 1px solid #FCFCFF;
+            border-left: 1px solid #FCFCFF;
+            padding: 4px 0 0 2px; }
+            main div.card-container div.card div.venusaur div.card-btm div.card-def span {
+              color: #FFBB33; }
 
 /*# sourceMappingURL=personal.css.map */
