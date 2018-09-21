@@ -72,7 +72,7 @@ function callApi() {
 }
 
 button.addEventListener("click", () => {
-  input = document.getElementById("search-input").value.toLowerCase();
+  input = document.getElementById("search-input").value.toLowerCase().replace(/\s+/g, "");
   apiUrl = apiUrl + input + "/index.json";
   callApi();
   apiUrl = apiUrlReset;
