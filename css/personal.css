@@ -148,7 +148,7 @@ main {
     main div.card-container div.card {
       justify-self: center;
       width: 90%;
-      height: 90%;
+      height: 80%;
       transform-style: preserve-3d;
       transition: all 1s ease;
       cursor: pointer; }
@@ -816,5 +816,195 @@ main {
             padding: 4px 0 0 2px; }
             main div.card-container div.card div.venusaur div.card-btm div.card-def span {
               color: #FFBB33; }
+
+@media only screen and (max-width: 1440px) {
+  main div.card-container {
+    height: 550px; }
+    main div.card-container div.card div.arcanine div.card-top div.card-name {
+      padding: 10px 10px; }
+    main div.card-container div.card div.arcanine div.card-top div.card-hp {
+      padding: 10px 5px; }
+    main div.card-container div.card div.arcanine div.card-img img {
+      height: 150px;
+      margin: 25px 0 2px;
+      border: 5px solid silver; }
+    main div.card-container div.card div.arcanine div.card-data {
+      font-size: 100%; }
+      main div.card-container div.card div.arcanine div.card-data div {
+        padding: 5px 0; }
+    main div.card-container div.card div.arcanine div.card-desc {
+      font-size: 80%; }
+    main div.card-container div.card div.arcanine div.card-abl div.title {
+      font-size: 100%; }
+    main div.card-container div.card div.arcanine div.card-abl div.abl-1 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.arcanine div.card-abl div.abl-2 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.arcanine div.card-btm div.pkmn-type img {
+      width: 30px;
+      height: 30px; }
+    main div.card-container div.card div.arcanine div.card-btm div.card-atk {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.arcanine div.card-btm div.card-def {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.alakazam div.card-top div.card-name {
+      padding: 10px 10px; }
+    main div.card-container div.card div.alakazam div.card-top div.card-hp {
+      padding: 10px 5px; }
+    main div.card-container div.card div.alakazam div.card-img img {
+      height: 150px;
+      margin: 25px 0 2px;
+      border: 5px solid silver; }
+    main div.card-container div.card div.alakazam div.card-data {
+      font-size: 100%; }
+      main div.card-container div.card div.alakazam div.card-data div {
+        padding: 5px 0; }
+    main div.card-container div.card div.alakazam div.card-desc {
+      font-size: 80%; }
+    main div.card-container div.card div.alakazam div.card-abl div.title {
+      font-size: 100%; }
+    main div.card-container div.card div.alakazam div.card-abl div.abl-1 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.alakazam div.card-abl div.abl-2 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.alakazam div.card-btm div.pkmn-type img {
+      width: 30px;
+      height: 30px; }
+    main div.card-container div.card div.alakazam div.card-btm div.card-atk {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.alakazam div.card-btm div.card-def {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.snorlax div.card-top div.card-name {
+      padding: 10px 10px; }
+    main div.card-container div.card div.snorlax div.card-top div.card-hp {
+      padding: 10px 5px; }
+    main div.card-container div.card div.snorlax div.card-img img {
+      height: 150px;
+      margin: 25px 0 2px;
+      border: 5px solid silver; }
+    main div.card-container div.card div.snorlax div.card-data {
+      font-size: 100%; }
+      main div.card-container div.card div.snorlax div.card-data div {
+        padding: 5px 0; }
+    main div.card-container div.card div.snorlax div.card-desc {
+      font-size: 80%; }
+    main div.card-container div.card div.snorlax div.card-abl div.title {
+      font-size: 100%; }
+    main div.card-container div.card div.snorlax div.card-abl div.abl-1 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.snorlax div.card-abl div.abl-2 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.snorlax div.card-btm div.pkmn-type img {
+      width: 30px;
+      height: 30px; }
+    main div.card-container div.card div.snorlax div.card-btm div.card-atk {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.snorlax div.card-btm div.card-def {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.zapdos div.card-top div.card-name {
+      padding: 10px 10px; }
+    main div.card-container div.card div.zapdos div.card-top div.card-hp {
+      padding: 10px 5px; }
+    main div.card-container div.card div.zapdos div.card-img img {
+      height: 150px;
+      margin: 25px 0 2px;
+      border: 5px solid silver; }
+    main div.card-container div.card div.zapdos div.card-data {
+      font-size: 100%; }
+      main div.card-container div.card div.zapdos div.card-data div {
+        padding: 5px 0; }
+    main div.card-container div.card div.zapdos div.card-desc {
+      font-size: 80%; }
+    main div.card-container div.card div.zapdos div.card-abl div.title {
+      font-size: 100%; }
+    main div.card-container div.card div.zapdos div.card-abl div.abl-1 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.zapdos div.card-abl div.abl-2 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.zapdos div.card-btm div.pkmn-type img {
+      width: 30px;
+      height: 30px; }
+    main div.card-container div.card div.zapdos div.card-btm div.card-atk {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.zapdos div.card-btm div.card-def {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.dragonite div.card-top div.card-name {
+      padding: 10px 10px; }
+    main div.card-container div.card div.dragonite div.card-top div.card-hp {
+      padding: 10px 5px; }
+    main div.card-container div.card div.dragonite div.card-img img {
+      height: 150px;
+      margin: 25px 0 2px;
+      border: 5px solid silver; }
+    main div.card-container div.card div.dragonite div.card-data {
+      font-size: 100%; }
+      main div.card-container div.card div.dragonite div.card-data div {
+        padding: 5px 0; }
+    main div.card-container div.card div.dragonite div.card-desc {
+      font-size: 80%; }
+    main div.card-container div.card div.dragonite div.card-abl div.title {
+      font-size: 100%; }
+    main div.card-container div.card div.dragonite div.card-abl div.abl-1 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.dragonite div.card-abl div.abl-2 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.dragonite div.card-btm div.pkmn-type img {
+      width: 30px;
+      height: 30px; }
+    main div.card-container div.card div.dragonite div.card-btm div.card-atk {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.dragonite div.card-btm div.card-def {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.venusaur div.card-top div.card-name {
+      padding: 10px 10px; }
+    main div.card-container div.card div.venusaur div.card-top div.card-hp {
+      padding: 10px 5px; }
+    main div.card-container div.card div.venusaur div.card-img img {
+      height: 150px;
+      margin: 25px 0 2px;
+      border: 5px solid silver; }
+    main div.card-container div.card div.venusaur div.card-data {
+      font-size: 100%; }
+      main div.card-container div.card div.venusaur div.card-data div {
+        padding: 5px 0; }
+    main div.card-container div.card div.venusaur div.card-desc {
+      font-size: 80%; }
+    main div.card-container div.card div.venusaur div.card-abl div.title {
+      font-size: 100%; }
+    main div.card-container div.card div.venusaur div.card-abl div.abl-1 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.venusaur div.card-abl div.abl-2 ul {
+      font-size: 80%; }
+    main div.card-container div.card div.venusaur div.card-btm div.pkmn-type img {
+      width: 30px;
+      height: 30px; }
+    main div.card-container div.card div.venusaur div.card-btm div.card-atk {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; }
+    main div.card-container div.card div.venusaur div.card-btm div.card-def {
+      align-self: end;
+      font-size: 70%;
+      padding: 10px 0 10px 5px; } }
 
 /*# sourceMappingURL=personal.css.map */
