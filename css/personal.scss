@@ -1164,13 +1164,1575 @@ main {
   }
 }
 
-@media only screen and (max-width: 0) {}
-@media only screen and (max-width: 0) {}
-@media only screen and (max-width: 375px) {}
-@media only screen and (max-width: 425px) {}
-@media only screen and (max-width: 768px) {}
-@media only screen and (max-width: 1024px) {}
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 0) {}
+@media only screen and (min-width: 375px) {}
+@media only screen and (min-width: 425px) and (max-width: 550px) {
+  main {
+    div#trainer-card {
+      div.card-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        div.card-right {
+          grid-column: 1/3;
+          display: grid;
+          grid-gap: 1px;
+          grid-template-columns: 1fr 1fr 1fr;
+          margin: 12px;
+
+          div:nth-child(1) {
+            text-align: center;
+            grid-column: 1/4;
+          }
+        }
+      }
+    }
+    div.card-container {
+      height: 250px;
+      grid-column: 1/4;
+
+      div.card {
+        div.arcanine {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.alakazam {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.snorlax {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.zapdos {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.dragonite {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.venusaur {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 551px ) {
+  main {
+    div#trainer-card {
+      div.card-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        div.card-right {
+          grid-column: 1/3;
+          display: grid;
+          grid-gap: 1px;
+          grid-template-columns: 1fr 1fr 1fr;
+          margin: 12px;
+
+          div:nth-child(1) {
+            text-align: center;
+            grid-column: 1/4;
+          }
+        }
+      }
+    }
+    div.card-container {
+      height: 300px;
+
+      div.card {
+        div.arcanine {
+          div.card-top {
+            div.card-name {
+              padding: 2px 5px;
+              font-size: 60%;
+            }
+            div.card-hp {
+              padding: 2px 5px;
+              font-size: 60%;
+            }
+          }
+          div.card-img {
+            img {
+              height: 55px;
+              width: 60%;
+              margin: 5px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 10%;
+            div {
+              padding: 0;
+            }
+          }
+          div.card-desc {
+            font-size: 20%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 30%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 30%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 20%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 30%;
+              padding: 5px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 30%;
+              padding: 5px 0 10px 5px;
+            }
+          }
+        }
+
+        div.alakazam {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.snorlax {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.zapdos {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.dragonite {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.venusaur {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  main {
+    div.card-container {
+      height: 400px;
+
+      div.card {
+        div.arcanine {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.alakazam {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.snorlax {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.zapdos {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.dragonite {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.venusaur {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 100px;
+              margin: 30px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 60%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 50%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 60%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 50%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 50%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 25px;
+                height: 25px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 50%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main {
+    div.card-container {
+      height: 520px;
+
+      div.card {
+        div.arcanine {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 150px;
+              margin: 25px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 100%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 80%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 100%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 80%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 80%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.alakazam {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 150px;
+              margin: 25px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 100%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 80%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 100%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 80%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 80%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.snorlax {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 150px;
+              margin: 25px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 100%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 80%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 100%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 80%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 80%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.zapdos {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 150px;
+              margin: 25px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 100%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 80%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 100%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 80%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 80%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.dragonite {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 150px;
+              margin: 25px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 100%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 80%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 100%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 80%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 80%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+
+        div.venusaur {
+          div.card-top {
+            div.card-name {
+              padding: 10px 10px;
+            }
+            div.card-hp {
+              padding: 10px 5px;
+            }
+          }
+          div.card-img {
+            img {
+              height: 150px;
+              margin: 25px 0 2px;
+              border: 5px solid silver;
+            }
+          }
+          div.card-data {
+            font-size: 100%;
+            div {
+              padding: 5px 0;
+            }
+          }
+          div.card-desc {
+            font-size: 80%;
+          }
+          div.card-abl {
+            div.title {
+              font-size: 100%;
+            }
+            div.abl-1 {
+              ul {
+                font-size: 80%;
+              }
+            }
+
+            div.abl-2 {
+              ul {
+                font-size: 80%;
+              }
+            }
+          }
+          div.card-btm {
+            div.pkmn-type{
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+
+            div.card-atk {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+            div.card-def {
+              align-self: end;
+              font-size: 70%;
+              padding: 10px 0 10px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px) {
   main {
     div.card-container {
       height: 550px;
